@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-15T11:30:49+00:00",
- "count": 915,
+ "generated_at": "2026-09-15T11:36:16+00:00",
+ "count": 939,
  "jobs": [
   {
    "id": "9081bfb764c2",
@@ -64,17 +64,17 @@
    "last_seen": "2026-09-15"
   },
   {
-   "id": "bb368df55346",
-   "company": "Stripe",
-   "group": "top",
-   "title": "Software Engineer, Intern (Summer or Winter)",
-   "location": "San Francisco, Seattle, New York City",
-   "url": "https://stripe.com/jobs/search?gh_jid=8128745",
-   "posted": "2026-09-10",
+   "id": "9363ab0a80fb",
+   "company": "Synacktiv",
+   "group": "boutique",
+   "title": "Job offers/internships",
+   "location": "",
+   "url": "https://www.synacktiv.com/en/join-us#block-views-block-job-offer-list-view-block-1",
+   "posted": null,
    "tags": [
     "other"
    ],
-   "via": "greenhouse",
+   "via": "page_scan",
    "first_seen": "2026-09-15",
    "last_seen": "2026-09-15"
   },
@@ -109,6 +109,21 @@
    "last_seen": "2026-09-15"
   },
   {
+   "id": "bb368df55346",
+   "company": "Stripe",
+   "group": "top",
+   "title": "Software Engineer, Intern (Summer or Winter)",
+   "location": "San Francisco, Seattle, New York City",
+   "url": "https://stripe.com/jobs/search?gh_jid=8128745",
+   "posted": "2026-09-10",
+   "tags": [
+    "other"
+   ],
+   "via": "greenhouse",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
    "id": "9f85242b0401",
    "company": "Stripe",
    "group": "top",
@@ -124,12 +139,12 @@
    "last_seen": "2026-09-15"
   },
   {
-   "id": "ab593a02bad0",
+   "id": "e8d341de03bf",
    "company": "Stripe",
    "group": "top",
    "title": "Software Engineer, Intern",
-   "location": "London",
-   "url": "https://stripe.com/jobs/search?gh_jid=8130867",
+   "location": "Bengaluru",
+   "url": "https://stripe.com/jobs/search?gh_jid=8031833",
    "posted": "2026-09-10",
    "tags": [
     "other"
@@ -139,12 +154,12 @@
    "last_seen": "2026-09-15"
   },
   {
-   "id": "e8d341de03bf",
+   "id": "ab593a02bad0",
    "company": "Stripe",
    "group": "top",
    "title": "Software Engineer, Intern",
-   "location": "Bengaluru",
-   "url": "https://stripe.com/jobs/search?gh_jid=8031833",
+   "location": "London",
+   "url": "https://stripe.com/jobs/search?gh_jid=8130867",
    "posted": "2026-09-10",
    "tags": [
     "other"
@@ -725,12 +740,12 @@
    "last_seen": "2026-09-15"
   },
   {
-   "id": "a4ab66a23bd2",
+   "id": "3ea3c2c09d06",
    "company": "Roblox",
    "group": "top",
    "title": "[2026] Senior Machine Learning Engineer (Systems), Embodied AI/NPCs, ML Platform - PhD Early Career",
    "location": "San Mateo, CA, United States",
-   "url": "https://careers.roblox.com/jobs/8027588?gh_jid=8027588",
+   "url": "https://careers.roblox.com/jobs/8027587?gh_jid=8027587",
    "posted": "2026-08-17",
    "tags": [
     "research",
@@ -741,12 +756,12 @@
    "last_seen": "2026-09-15"
   },
   {
-   "id": "3ea3c2c09d06",
+   "id": "a4ab66a23bd2",
    "company": "Roblox",
    "group": "top",
    "title": "[2026] Senior Machine Learning Engineer (Systems), Embodied AI/NPCs, ML Platform - PhD Early Career",
    "location": "San Mateo, CA, United States",
-   "url": "https://careers.roblox.com/jobs/8027587?gh_jid=8027587",
+   "url": "https://careers.roblox.com/jobs/8027588?gh_jid=8027588",
    "posted": "2026-08-17",
    "tags": [
     "research",
@@ -990,7 +1005,7 @@
    "url": "https://boards.greenhouse.io/robinhood/jobs/8198241?t=gh_src=&gh_jid=8198241",
    "posted": "2026-09-14",
    "tags": [
-    "cyber"
+    "other"
    ],
    "via": "greenhouse",
    "first_seen": "2026-09-15",
@@ -1050,7 +1065,7 @@
    "url": "https://boards.greenhouse.io/robinhood/jobs/8198223?t=gh_src=&gh_jid=8198223",
    "posted": "2026-09-14",
    "tags": [
-    "cyber"
+    "other"
    ],
    "via": "greenhouse",
    "first_seen": "2026-09-15",
@@ -1083,6 +1098,21 @@
     "other"
    ],
    "via": "greenhouse",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "fa00878a95e3",
+   "company": "Rapid7",
+   "group": "boutique",
+   "title": "Emerging Talent & Interns",
+   "location": "",
+   "url": "https://careers.rapid7.com/emerging-talent",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "page_scan",
    "first_seen": "2026-09-15",
    "last_seen": "2026-09-15"
   },
@@ -1747,12 +1777,12 @@
    "last_seen": "2026-09-15"
   },
   {
-   "id": "b95efba0a3bd",
+   "id": "245542135c40",
    "company": "Optiver",
    "group": "bank",
    "title": "Software Engineer Internship (2027 Start)",
-   "location": "Amsterdam, North Holland, Netherlands",
-   "url": "https://www.optiver.com/join-us/jobs/8713409002/?gh_jid=8713409002",
+   "location": "London, England, United Kingdom",
+   "url": "https://www.optiver.com/join-us/jobs/8713435002/?gh_jid=8713435002",
    "posted": "2026-09-09",
    "tags": [
     "other"
@@ -1762,12 +1792,12 @@
    "last_seen": "2026-09-15"
   },
   {
-   "id": "245542135c40",
+   "id": "b95efba0a3bd",
    "company": "Optiver",
    "group": "bank",
    "title": "Software Engineer Internship (2027 Start)",
-   "location": "London, England, United Kingdom",
-   "url": "https://www.optiver.com/join-us/jobs/8713435002/?gh_jid=8713435002",
+   "location": "Amsterdam, North Holland, Netherlands",
+   "url": "https://www.optiver.com/join-us/jobs/8713409002/?gh_jid=8713409002",
    "posted": "2026-09-09",
    "tags": [
     "other"
@@ -1897,21 +1927,6 @@
    "last_seen": "2026-09-15"
   },
   {
-   "id": "bb801ca056ba",
-   "company": "Optiver",
-   "group": "bank",
-   "title": "Quantitative Research Intern, PhD (Summer 2027)",
-   "location": "Austin, Texas, United States",
-   "url": "https://www.optiver.com/join-us/jobs/8451782002/?gh_jid=8451782002",
-   "posted": "2026-08-24",
-   "tags": [
-    "research"
-   ],
-   "via": "greenhouse",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15"
-  },
-  {
    "id": "67ac72a51c86",
    "company": "Optiver",
    "group": "bank",
@@ -1927,15 +1942,15 @@
    "last_seen": "2026-09-15"
   },
   {
-   "id": "02b8bef542f1",
+   "id": "bb801ca056ba",
    "company": "Optiver",
    "group": "bank",
-   "title": "Quantitative Intern (Summer 2027)",
-   "location": "Chicago, Illinois, United States",
-   "url": "https://www.optiver.com/join-us/jobs/8402215002/?gh_jid=8402215002",
-   "posted": "2026-08-03",
+   "title": "Quantitative Research Intern, PhD (Summer 2027)",
+   "location": "Austin, Texas, United States",
+   "url": "https://www.optiver.com/join-us/jobs/8451782002/?gh_jid=8451782002",
+   "posted": "2026-08-24",
    "tags": [
-    "other"
+    "research"
    ],
    "via": "greenhouse",
    "first_seen": "2026-09-15",
@@ -1957,15 +1972,15 @@
    "last_seen": "2026-09-15"
   },
   {
-   "id": "3892c2c4be5c",
+   "id": "02b8bef542f1",
    "company": "Optiver",
    "group": "bank",
-   "title": "Graduate Quantitative Researcher, PhD (2027 Start)",
-   "location": "Austin, Texas, United States",
-   "url": "https://www.optiver.com/join-us/jobs/8451763002/?gh_jid=8451763002",
-   "posted": "2026-08-24",
+   "title": "Quantitative Intern (Summer 2027)",
+   "location": "Chicago, Illinois, United States",
+   "url": "https://www.optiver.com/join-us/jobs/8402215002/?gh_jid=8402215002",
+   "posted": "2026-08-03",
    "tags": [
-    "research"
+    "other"
    ],
    "via": "greenhouse",
    "first_seen": "2026-09-15",
@@ -1978,6 +1993,21 @@
    "title": "Graduate Quantitative Researcher, PhD (2027 Start)",
    "location": "Chicago, Illinois, United States",
    "url": "https://www.optiver.com/join-us/jobs/8451762002/?gh_jid=8451762002",
+   "posted": "2026-08-24",
+   "tags": [
+    "research"
+   ],
+   "via": "greenhouse",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "3892c2c4be5c",
+   "company": "Optiver",
+   "group": "bank",
+   "title": "Graduate Quantitative Researcher, PhD (2027 Start)",
+   "location": "Austin, Texas, United States",
+   "url": "https://www.optiver.com/join-us/jobs/8451763002/?gh_jid=8451763002",
    "posted": "2026-08-24",
    "tags": [
     "research"
@@ -3133,7 +3163,6 @@
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210775223",
    "posted": "2026-08-07",
    "tags": [
-    "cyber",
     "ai"
    ],
    "via": "oracle_hcm",
@@ -4161,6 +4190,21 @@
    "last_seen": "2026-09-15"
   },
   {
+   "id": "f4db9573302e",
+   "company": "JPMorgan Chase",
+   "group": "bank",
+   "title": "2027 Commercial & Investment Banking - Global Markets - Off-cycle Internship - London",
+   "location": "LONDON, LONDON, United Kingdom",
+   "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210788236",
+   "posted": "2026-09-07",
+   "tags": [
+    "other"
+   ],
+   "via": "oracle_hcm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
    "id": "de75032d7fb6",
    "company": "JPMorgan Chase",
    "group": "bank",
@@ -4199,7 +4243,7 @@
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210690781",
    "posted": "2025-12-29",
    "tags": [
-    "cyber"
+    "other"
    ],
    "via": "oracle_hcm",
    "first_seen": "2026-09-15",
@@ -4949,7 +4993,7 @@
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210774894",
    "posted": "2026-08-31",
    "tags": [
-    "cyber"
+    "other"
    ],
    "via": "oracle_hcm",
    "first_seen": "2026-09-15",
@@ -4979,7 +5023,7 @@
    "url": "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/210691905",
    "posted": "2026-01-08",
    "tags": [
-    "cyber"
+    "other"
    ],
    "via": "oracle_hcm",
    "first_seen": "2026-09-15",
@@ -6434,7 +6478,7 @@
    "company": "Google",
    "group": "top",
    "title": "User Experience Research Intern, PhD, Summer 2027",
-   "location": "User Experience Research Intern, PhD, Summer 2027",
+   "location": "Mountain View, CA, USA",
    "url": "https://www.google.com/about/careers/applications/jobs/results/137409539979780806-user-experience-research-intern-phd-summer-2027",
    "posted": null,
    "tags": [
@@ -6449,7 +6493,7 @@
    "company": "Google",
    "group": "top",
    "title": "User Experience Research Intern, MS, Summer 2027",
-   "location": "User Experience Research Intern, MS, Summer 2027",
+   "location": "Mountain View, CA, USA",
    "url": "https://www.google.com/about/careers/applications/jobs/results/89541201752924870-user-experience-research-intern-ms-summer-2027",
    "posted": null,
    "tags": [
@@ -6464,7 +6508,7 @@
    "company": "Google",
    "group": "top",
    "title": "User Experience Engineer Intern, PhD, Summer 2027",
-   "location": "User Experience Engineer Intern, PhD, Summer 2027",
+   "location": "Mountain View, CA, USA",
    "url": "https://www.google.com/about/careers/applications/jobs/results/117572151191446214-user-experience-engineer-intern-phd-summer-2027",
    "posted": null,
    "tags": [
@@ -6479,7 +6523,7 @@
    "company": "Google",
    "group": "top",
    "title": "User Experience Engineer Intern, BS/MS, Summer 2027",
-   "location": "User Experience Engineer Intern, BS/MS, Summer 2027",
+   "location": "Mountain View, CA, USA",
    "url": "https://www.google.com/about/careers/applications/jobs/results/112499004540887750-user-experience-engineer-intern-bsms-summer-2027",
    "posted": null,
    "tags": [
@@ -6494,7 +6538,7 @@
    "company": "Google",
    "group": "top",
    "title": "User Experience Design Intern, BS/MS, Summer 2027",
-   "location": "User Experience Design Intern, BS/MS, Summer 2027",
+   "location": "Mountain View, CA, USA",
    "url": "https://www.google.com/about/careers/applications/jobs/results/100798001798095558-user-experience-design-intern-bsms-summer-2027",
    "posted": null,
    "tags": [
@@ -6509,7 +6553,7 @@
    "company": "Google",
    "group": "top",
    "title": "User Experience Design Apprenticeship, February 2027 Start",
-   "location": "User Experience Design Apprenticeship, February 2027 Start",
+   "location": "New York, NY, USA",
    "url": "https://www.google.com/about/careers/applications/jobs/results/79970343875158726-user-experience-design-apprenticeship-february-2027-start",
    "posted": null,
    "tags": [
@@ -6524,7 +6568,7 @@
    "company": "Google",
    "group": "top",
    "title": "Technical Program Manager Intern, BS/MS, Summer 2027",
-   "location": "Technical Program Manager Intern, BS/MS, Summer 2027",
+   "location": "Mountain View, CA, USA",
    "url": "https://www.google.com/about/careers/applications/jobs/results/80582381009806022-technical-program-manager-intern-bsms-summer-2027",
    "posted": null,
    "tags": [
@@ -6539,23 +6583,8 @@
    "company": "Google",
    "group": "top",
    "title": "Student Researcher, PhD, Winter-Summer 2027",
-   "location": "Student Researcher, PhD, Winter-Summer 2027",
+   "location": "Montreal, QC, Canada",
    "url": "https://www.google.com/about/careers/applications/jobs/results/141525012002546374-student-researcher-phd-wintersummer-2027",
-   "posted": null,
-   "tags": [
-    "research"
-   ],
-   "via": "google",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15"
-  },
-  {
-   "id": "394d2e2f450f",
-   "company": "Google",
-   "group": "top",
-   "title": "Student Researcher, PhD, Winter-Summer 2027",
-   "location": "Student Researcher, PhD, Winter-Summer 2027",
-   "url": "https://www.google.com/about/careers/applications/jobs/results/75043041429070534-student-researcher-phd-wintersummer-2027",
    "posted": null,
    "tags": [
     "research"
@@ -6569,8 +6598,23 @@
    "company": "Google",
    "group": "top",
    "title": "Student Researcher, PhD, Winter-Summer 2027",
-   "location": "Student Researcher, PhD, Winter-Summer 2027",
+   "location": "Mountain View, CA, USA",
    "url": "https://www.google.com/about/careers/applications/jobs/results/134313315235963590-student-researcher-phd-wintersummer-2027",
+   "posted": null,
+   "tags": [
+    "research"
+   ],
+   "via": "google",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "394d2e2f450f",
+   "company": "Google",
+   "group": "top",
+   "title": "Student Researcher, PhD, Winter-Summer 2027",
+   "location": "Waterloo, ON, Canada",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/75043041429070534-student-researcher-phd-wintersummer-2027",
    "posted": null,
    "tags": [
     "research"
@@ -6584,7 +6628,7 @@
    "company": "Google",
    "group": "top",
    "title": "Student Researcher, PhD, Fall 2026",
-   "location": "Student Researcher, PhD, Fall 2026",
+   "location": "Mountain View, CA, USA",
    "url": "https://www.google.com/about/careers/applications/jobs/results/83535564552184518-student-researcher-phd-fall-2026",
    "posted": null,
    "tags": [
@@ -6599,23 +6643,8 @@
    "company": "Google",
    "group": "top",
    "title": "Student Researcher, PhD, Fall 2026",
-   "location": "Student Researcher, PhD, Fall 2026",
+   "location": "Waterloo, ON, Canada",
    "url": "https://www.google.com/about/careers/applications/jobs/results/128430823337534150-student-researcher-phd-fall-2026",
-   "posted": null,
-   "tags": [
-    "research"
-   ],
-   "via": "google",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15"
-  },
-  {
-   "id": "81b388e2b03c",
-   "company": "Google",
-   "group": "top",
-   "title": "Student Researcher, BS/MS, Winter-Summer 2027",
-   "location": "Student Researcher, BS/MS, Winter-Summer 2027",
-   "url": "https://www.google.com/about/careers/applications/jobs/results/131518356678156998-student-researcher-bsms-wintersummer-2027",
    "posted": null,
    "tags": [
     "research"
@@ -6629,8 +6658,23 @@
    "company": "Google",
    "group": "top",
    "title": "Student Researcher, BS/MS, Winter-Summer 2027",
-   "location": "Student Researcher, BS/MS, Winter-Summer 2027",
+   "location": "Montreal, QC, Canada",
    "url": "https://www.google.com/about/careers/applications/jobs/results/104405499448828614-student-researcher-bsms-wintersummer-2027",
+   "posted": null,
+   "tags": [
+    "research"
+   ],
+   "via": "google",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "81b388e2b03c",
+   "company": "Google",
+   "group": "top",
+   "title": "Student Researcher, BS/MS, Winter-Summer 2027",
+   "location": "Mountain View, CA, USA",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/131518356678156998-student-researcher-bsms-wintersummer-2027",
    "posted": null,
    "tags": [
     "research"
@@ -6644,7 +6688,7 @@
    "company": "Google",
    "group": "top",
    "title": "Student Researcher, BS/MS, Winter-Summer 2027",
-   "location": "Student Researcher, BS/MS, Winter-Summer 2027",
+   "location": "Waterloo, ON, Canada",
    "url": "https://www.google.com/about/careers/applications/jobs/results/114416552819729094-student-researcher-bsms-wintersummer-2027",
    "posted": null,
    "tags": [
@@ -6659,7 +6703,7 @@
    "company": "Google",
    "group": "top",
    "title": "Student Researcher, BS/MS, Fall 2026",
-   "location": "Student Researcher, BS/MS, Fall 2026",
+   "location": "Mountain View, CA, USA",
    "url": "https://www.google.com/about/careers/applications/jobs/results/132362676918461126-student-researcher-bsms-fall-2026",
    "posted": null,
    "tags": [
@@ -6674,7 +6718,7 @@
    "company": "Google",
    "group": "top",
    "title": "Student Researcher, BS/MS, Fall 2026",
-   "location": "Student Researcher, BS/MS, Fall 2026",
+   "location": "Waterloo, ON, Canada",
    "url": "https://www.google.com/about/careers/applications/jobs/results/113855697199735494-student-researcher-bsms-fall-2026",
    "posted": null,
    "tags": [
@@ -6689,7 +6733,7 @@
    "company": "Google",
    "group": "top",
    "title": "Student Researcher Program Manager, Talent Engagement",
-   "location": "Student Researcher Program Manager, Talent Engagement",
+   "location": "London, UK",
    "url": "https://www.google.com/about/careers/applications/jobs/results/117638920753029830-student-researcher-program-manager-talent-engagement",
    "posted": null,
    "tags": [
@@ -6704,7 +6748,7 @@
    "company": "Google",
    "group": "top",
    "title": "Software Engineering, Site Reliability Engineering BS/MS Intern, 2027",
-   "location": "Software Engineering, Site Reliability Engineering BS/MS Intern, 2027",
+   "location": "London, UK",
    "url": "https://www.google.com/about/careers/applications/jobs/results/100028133205254854-software-engineering-site-reliability-engineering-bsms-intern-2027",
    "posted": null,
    "tags": [
@@ -6719,7 +6763,7 @@
    "company": "Google",
    "group": "top",
    "title": "Software Engineering, Site Reliability Engineering BS/MS Intern, 2027",
-   "location": "Software Engineering, Site Reliability Engineering BS/MS Intern, 2027",
+   "location": "Warsaw, Poland",
    "url": "https://www.google.com/about/careers/applications/jobs/results/121543376737575622-software-engineering-site-reliability-engineering-bsms-intern-2027",
    "posted": null,
    "tags": [
@@ -6734,7 +6778,7 @@
    "company": "Google",
    "group": "top",
    "title": "Software Engineering, Site Reliability Engineering BS/MS Intern, 2027",
-   "location": "Software Engineering, Site Reliability Engineering BS/MS Intern, 2027",
+   "location": "Zürich, Switzerland",
    "url": "https://www.google.com/about/careers/applications/jobs/results/142747733357142726-software-engineering-site-reliability-engineering-bsms-intern-2027",
    "posted": null,
    "tags": [
@@ -6749,11 +6793,10 @@
    "company": "Google",
    "group": "top",
    "title": "Software Engineering or SRE, PhD Intern, 2027",
-   "location": "Software Engineering or SRE, PhD Intern, 2027",
+   "location": "London, UK",
    "url": "https://www.google.com/about/careers/applications/jobs/results/80037545080955590-software-engineering-or-sre-phd-intern-2027",
    "posted": null,
    "tags": [
-    "cyber",
     "research"
    ],
    "via": "google",
@@ -6765,7 +6808,7 @@
    "company": "Google",
    "group": "top",
    "title": "Software Engineering PhD Intern, Summer 2027",
-   "location": "Software Engineering PhD Intern, Summer 2027",
+   "location": "Bengaluru, Karnataka, India",
    "url": "https://www.google.com/about/careers/applications/jobs/results/109976286780105414-software-engineering-phd-intern-summer-2027",
    "posted": null,
    "tags": [
@@ -6810,7 +6853,7 @@
    "company": "Google",
    "group": "top",
    "title": "Software Engineering Intern, PhD, Summer 2027",
-   "location": "Software Engineering Intern, PhD, Summer 2027",
+   "location": "Mountain View, CA, USA",
    "url": "https://www.google.com/about/careers/applications/jobs/results/91436104816698054-software-engineering-intern-phd-summer-2027",
    "posted": null,
    "tags": [
@@ -6825,7 +6868,7 @@
    "company": "Google",
    "group": "top",
    "title": "Software Engineering Intern, PhD, Summer 2027",
-   "location": "Software Engineering Intern, PhD, Summer 2027",
+   "location": "Taipei, Taiwan",
    "url": "https://www.google.com/about/careers/applications/jobs/results/104551723757904582-software-engineering-intern-phd-summer-2027",
    "posted": null,
    "tags": [
@@ -6840,7 +6883,7 @@
    "company": "Google",
    "group": "top",
    "title": "Software Engineering Intern, MS, Summer 2027",
-   "location": "Software Engineering Intern, MS, Summer 2027",
+   "location": "Mountain View, CA, USA",
    "url": "https://www.google.com/about/careers/applications/jobs/results/94172495052972742-software-engineering-intern-ms-summer-2027",
    "posted": null,
    "tags": [
@@ -6855,7 +6898,7 @@
    "company": "Google",
    "group": "top",
    "title": "Software Engineering Intern, BS, Summer 2027",
-   "location": "Software Engineering Intern, BS, Summer 2027",
+   "location": "Mountain View, CA, USA",
    "url": "https://www.google.com/about/careers/applications/jobs/results/100648618540573382-software-engineering-intern-bs-summer-2027",
    "posted": null,
    "tags": [
@@ -6870,7 +6913,7 @@
    "company": "Google",
    "group": "top",
    "title": "Software Engineering BS/MS Intern, 2027",
-   "location": "Bucharest, Romania",
+   "location": "",
    "url": "https://www.google.com/about/careers/applications/jobs/results/83199557986329286-software-engineering-bsms-intern-2027",
    "posted": null,
    "tags": [
@@ -6885,7 +6928,7 @@
    "company": "Google",
    "group": "top",
    "title": "Software Engineer, TPU Compiler, PhD, Early Careers",
-   "location": "Software Engineer, TPU Compiler, PhD, Early Careers",
+   "location": "London, UK",
    "url": "https://www.google.com/about/careers/applications/jobs/results/130170340289454790-software-engineer-tpu-compiler-phd-early-careers",
    "posted": null,
    "tags": [
@@ -6900,7 +6943,7 @@
    "company": "Google",
    "group": "top",
    "title": "Software Engineer, Systems Research, PhD, Early Career",
-   "location": "Software Engineer, Systems Research, PhD, Early Career",
+   "location": "Sunnyvale, CA, USA",
    "url": "https://www.google.com/about/careers/applications/jobs/results/76908711519363782-software-engineer-systems-research-phd-early-career",
    "posted": null,
    "tags": [
@@ -6915,7 +6958,7 @@
    "company": "Google",
    "group": "top",
    "title": "Software Engineer, PhD, Static Program Analysis",
-   "location": "Software Engineer, PhD, Static Program Analysis",
+   "location": "Bengaluru, Karnataka, India",
    "url": "https://www.google.com/about/careers/applications/jobs/results/137885141035819718-software-engineer-phd-static-program-analysis",
    "posted": null,
    "tags": [
@@ -6931,7 +6974,7 @@
    "company": "Google",
    "group": "top",
    "title": "Software Engineer, PhD, Google Cloud Platform",
-   "location": "Software Engineer, PhD, Google Cloud Platform",
+   "location": "Bengaluru, Karnataka, India",
    "url": "https://www.google.com/about/careers/applications/jobs/results/88871666280473286-software-engineer-phd-google-cloud-platform",
    "posted": null,
    "tags": [
@@ -6946,7 +6989,7 @@
    "company": "Google",
    "group": "top",
    "title": "Software Engineer, PhD, Early Careers, Platform System Software",
-   "location": "Software Engineer, PhD, Early Careers, Platform System Software",
+   "location": "Taipei, Taiwan",
    "url": "https://www.google.com/about/careers/applications/jobs/results/112226771696263878-software-engineer-phd-early-careers-platform-system-software",
    "posted": null,
    "tags": [
@@ -6961,7 +7004,7 @@
    "company": "Google",
    "group": "top",
    "title": "Software Engineer, PhD, Early Careers, Google Cloud",
-   "location": "Software Engineer, PhD, Early Careers, Google Cloud",
+   "location": "Taipei, Taiwan",
    "url": "https://www.google.com/about/careers/applications/jobs/results/139644332427616966-software-engineer-phd-early-careers-google-cloud",
    "posted": null,
    "tags": [
@@ -6976,7 +7019,7 @@
    "company": "Google",
    "group": "top",
    "title": "Software Engineer, PhD, Early Career, Networking, 2026 Start",
-   "location": "Software Engineer, PhD, Early Career, Networking, 2026 Start",
+   "location": "Bengaluru, Karnataka, India",
    "url": "https://www.google.com/about/careers/applications/jobs/results/126485952255140550-software-engineer-phd-early-career-networking-2026-start",
    "posted": null,
    "tags": [
@@ -6991,7 +7034,7 @@
    "company": "Google",
    "group": "top",
    "title": "Software Engineer, PhD, Early Career, 2026",
-   "location": "Software Engineer, PhD, Early Career, 2026",
+   "location": "Bengaluru, Karnataka, India",
    "url": "https://www.google.com/about/careers/applications/jobs/results/120415858164933318-software-engineer-phd-early-career-2026",
    "posted": null,
    "tags": [
@@ -7006,7 +7049,7 @@
    "company": "Google",
    "group": "top",
    "title": "Software Engineer, PhD, Early Career, 2026",
-   "location": "Software Engineer, PhD, Early Career, 2026",
+   "location": "Hyderabad, Telangana, India",
    "url": "https://www.google.com/about/careers/applications/jobs/results/108281679147082438-software-engineer-phd-early-career-2026",
    "posted": null,
    "tags": [
@@ -7021,7 +7064,7 @@
    "company": "Google",
    "group": "top",
    "title": "Software Engineer, PhD, Early Career, 2026",
-   "location": "Software Engineer, PhD, Early Career, 2026",
+   "location": "Bengaluru, Karnataka, India",
    "url": "https://www.google.com/about/careers/applications/jobs/results/107018346561446598-software-engineer-phd-early-career-2026",
    "posted": null,
    "tags": [
@@ -7036,7 +7079,7 @@
    "company": "Google",
    "group": "top",
    "title": "Software Engineer, Persistent Disk, PhD, Early Career, 2026",
-   "location": "Software Engineer, Persistent Disk, PhD, Early Career, 2026",
+   "location": "Bengaluru, Karnataka, India",
    "url": "https://www.google.com/about/careers/applications/jobs/results/95785531123606214-software-engineer-persistent-disk-phd-early-career-2026",
    "posted": null,
    "tags": [
@@ -7051,7 +7094,7 @@
    "company": "Google",
    "group": "top",
    "title": "Software Engineer, Performance, Reliability, Observability, PhD, Early Careers",
-   "location": "Software Engineer, Performance, Reliability, Observability, PhD, Early Careers",
+   "location": "Warsaw, Poland",
    "url": "https://www.google.com/about/careers/applications/jobs/results/82807692585771718-software-engineer-performance-reliability-observability-phd-early-careers",
    "posted": null,
    "tags": [
@@ -7066,7 +7109,7 @@
    "company": "Google",
    "group": "top",
    "title": "Software Engineer, Performance, Reliability, Observability, PhD, Early Career",
-   "location": "Software Engineer, Performance, Reliability, Observability, PhD, Early Career",
+   "location": "Warsaw, Poland",
    "url": "https://www.google.com/about/careers/applications/jobs/results/91485220485636806-software-engineer-performance-reliability-observability-phd-early-career",
    "posted": null,
    "tags": [
@@ -7081,7 +7124,7 @@
    "company": "Google",
    "group": "top",
    "title": "Software Engineer, Infrastructure, PhD, Early Career, 2027 Start",
-   "location": "Software Engineer, Infrastructure, PhD, Early Career, 2027 Start",
+   "location": "Sunnyvale, CA, USA",
    "url": "https://www.google.com/about/careers/applications/jobs/results/84680705375642310-software-engineer-infrastructure-phd-early-career-2027-start",
    "posted": null,
    "tags": [
@@ -7096,7 +7139,7 @@
    "company": "Google",
    "group": "top",
    "title": "Software Engineer, GCE Control Plane, Early Careers, PhD",
-   "location": "Software Engineer, GCE Control Plane, Early Careers, PhD",
+   "location": "Warsaw, Poland",
    "url": "https://www.google.com/about/careers/applications/jobs/results/119716248828158662-software-engineer-gce-control-plane-early-careers-phd",
    "posted": null,
    "tags": [
@@ -7111,7 +7154,7 @@
    "company": "Google",
    "group": "top",
    "title": "Software Engineer, Fleet Analytics, PhD, Early Career, 2026",
-   "location": "Software Engineer, Fleet Analytics, PhD, Early Career, 2026",
+   "location": "Bengaluru, Karnataka, India",
    "url": "https://www.google.com/about/careers/applications/jobs/results/141496697866855110-software-engineer-fleet-analytics-phd-early-career-2026",
    "posted": null,
    "tags": [
@@ -7126,7 +7169,7 @@
    "company": "Google",
    "group": "top",
    "title": "Software Engineer, Early Careers, PhD, gSoC Server Software",
-   "location": "Software Engineer, Early Careers, PhD, gSoC Server Software",
+   "location": "Warsaw, Poland",
    "url": "https://www.google.com/about/careers/applications/jobs/results/120550077000229574-software-engineer-early-careers-phd-gsoc-server-software",
    "posted": null,
    "tags": [
@@ -7141,7 +7184,7 @@
    "company": "Google",
    "group": "top",
    "title": "Software Engineer, Early Careers, PhD, Cloud AI",
-   "location": "Software Engineer, Early Careers, PhD, Cloud AI",
+   "location": "Warsaw, Poland",
    "url": "https://www.google.com/about/careers/applications/jobs/results/116758841923642054-software-engineer-early-careers-phd-cloud-ai",
    "posted": null,
    "tags": [
@@ -7157,7 +7200,7 @@
    "company": "Google",
    "group": "top",
    "title": "Software Engineer, AI/Machine Learning,  PhD, Early Career, 2027 Start",
-   "location": "Software Engineer, AI/Machine Learning,  PhD, Early Career, 2027 Start",
+   "location": "Sunnyvale, CA, USA",
    "url": "https://www.google.com/about/careers/applications/jobs/results/123087196289671878-software-engineer-aimachine-learning-phd-early-career-2027-start",
    "posted": null,
    "tags": [
@@ -7173,7 +7216,7 @@
    "company": "Google",
    "group": "top",
    "title": "Software Engineer, AI/ML, PhD, Early Career, 2026",
-   "location": "Software Engineer, AI/ML, PhD, Early Career, 2026",
+   "location": "Bengaluru, Karnataka, India",
    "url": "https://www.google.com/about/careers/applications/jobs/results/127602843300307654-software-engineer-aiml-phd-early-career-2026",
    "posted": null,
    "tags": [
@@ -7189,7 +7232,7 @@
    "company": "Google",
    "group": "top",
    "title": "Software Developer Intern, PhD, Summer 2027",
-   "location": "Software Developer Intern, PhD, Summer 2027",
+   "location": "Waterloo, ON, Canada",
    "url": "https://www.google.com/about/careers/applications/jobs/results/112518690523488966-software-developer-intern-phd-summer-2027",
    "posted": null,
    "tags": [
@@ -7204,7 +7247,7 @@
    "company": "Google",
    "group": "top",
    "title": "Software Developer Intern, MS, Summer 2027",
-   "location": "Software Developer Intern, MS, Summer 2027",
+   "location": "Waterloo, ON, Canada",
    "url": "https://www.google.com/about/careers/applications/jobs/results/138960139137753798-software-developer-intern-ms-summer-2027",
    "posted": null,
    "tags": [
@@ -7219,7 +7262,7 @@
    "company": "Google",
    "group": "top",
    "title": "Software Developer Intern, BS, Summer 2027",
-   "location": "Software Developer Intern, BS, Summer 2027",
+   "location": "Waterloo, ON, Canada",
    "url": "https://www.google.com/about/careers/applications/jobs/results/123510626377966278-software-developer-intern-bs-summer-2027",
    "posted": null,
    "tags": [
@@ -7234,7 +7277,7 @@
    "company": "Google",
    "group": "top",
    "title": "Silicon RTL Design Engineer, PhD, Google Cloud",
-   "location": "Silicon RTL Design Engineer, PhD, Google Cloud",
+   "location": "Bengaluru, Karnataka, India",
    "url": "https://www.google.com/about/careers/applications/jobs/results/74838312686101190-silicon-rtl-design-engineer-phd-google-cloud",
    "posted": null,
    "tags": [
@@ -7249,7 +7292,7 @@
    "company": "Google",
    "group": "top",
    "title": "Silicon Engineering Intern, PhD, Summer 2027",
-   "location": "Silicon Engineering Intern, PhD, Summer 2027",
+   "location": "Sunnyvale, CA, USA",
    "url": "https://www.google.com/about/careers/applications/jobs/results/136529930677560006-silicon-engineering-intern-phd-summer-2027",
    "posted": null,
    "tags": [
@@ -7264,7 +7307,7 @@
    "company": "Google",
    "group": "top",
    "title": "Silicon Engineering Intern, PhD, Summer 2027",
-   "location": "Silicon Engineering Intern, PhD, Summer 2027",
+   "location": "Bengaluru, Karnataka, India",
    "url": "https://www.google.com/about/careers/applications/jobs/results/109375266236572358-silicon-engineering-intern-phd-summer-2027",
    "posted": null,
    "tags": [
@@ -7279,7 +7322,7 @@
    "company": "Google",
    "group": "top",
    "title": "Silicon Engineering Intern, BS/MS, Summer 2027",
-   "location": "Silicon Engineering Intern, BS/MS, Summer 2027",
+   "location": "Sunnyvale, CA, USA",
    "url": "https://www.google.com/about/careers/applications/jobs/results/88570332985598662-silicon-engineering-intern-bsms-summer-2027",
    "posted": null,
    "tags": [
@@ -7294,7 +7337,7 @@
    "company": "Google",
    "group": "top",
    "title": "Silicon DFT Engineer, PhD, Google Cloud",
-   "location": "Silicon DFT Engineer, PhD, Google Cloud",
+   "location": "Bengaluru, Karnataka, India",
    "url": "https://www.google.com/about/careers/applications/jobs/results/126075643661034182-silicon-dft-engineer-phd-google-cloud",
    "posted": null,
    "tags": [
@@ -7309,7 +7352,7 @@
    "company": "Google",
    "group": "top",
    "title": "Signal/Power Integrity Engineer, PhD Graduate",
-   "location": "Signal/Power Integrity Engineer, PhD Graduate",
+   "location": "Haifa, Israel",
    "url": "https://www.google.com/about/careers/applications/jobs/results/114836903953343174-signalpower-integrity-engineer-phd-graduate",
    "posted": null,
    "tags": [
@@ -7325,7 +7368,7 @@
    "company": "Google",
    "group": "top",
    "title": "Security Engineering Intern, BS/MS, Summer 2027",
-   "location": "Security Engineering Intern, BS/MS, Summer 2027",
+   "location": "Mountain View, CA, USA",
    "url": "https://www.google.com/about/careers/applications/jobs/results/136826798817059526-security-engineering-intern-bsms-summer-2027",
    "posted": null,
    "tags": [
@@ -7340,7 +7383,7 @@
    "company": "Google",
    "group": "top",
    "title": "Security Consultant Intern, BS/MS, Summer 2027",
-   "location": "Security Consultant Intern, BS/MS, Summer 2027",
+   "location": "Mountain View, CA, USA",
    "url": "https://www.google.com/about/careers/applications/jobs/results/139129176165622470-security-consultant-intern-bsms-summer-2027",
    "posted": null,
    "tags": [
@@ -7355,7 +7398,7 @@
    "company": "Google",
    "group": "top",
    "title": "Security Consultant Intern, BS/MS, Summer 2027",
-   "location": "Security Consultant Intern, BS/MS, Summer 2027",
+   "location": "Toronto, ON, Canada",
    "url": "https://www.google.com/about/careers/applications/jobs/results/94308684170961606-security-consultant-intern-bsms-summer-2027",
    "posted": null,
    "tags": [
@@ -7400,7 +7443,7 @@
    "company": "Google",
    "group": "top",
    "title": "Research Intern, PhD, Summer 2027",
-   "location": "Research Intern, PhD, Summer 2027",
+   "location": "Mountain View, CA, USA",
    "url": "https://www.google.com/about/careers/applications/jobs/results/86701057991680710-research-intern-phd-summer-2027",
    "posted": null,
    "tags": [
@@ -7415,7 +7458,7 @@
    "company": "Google",
    "group": "top",
    "title": "Research Intern, PhD, Summer 2027",
-   "location": "Research Intern, PhD, Summer 2027",
+   "location": "Montreal, QC, Canada",
    "url": "https://www.google.com/about/careers/applications/jobs/results/131287072689267398-research-intern-phd-summer-2027",
    "posted": null,
    "tags": [
@@ -7430,7 +7473,7 @@
    "company": "Google",
    "group": "top",
    "title": "Research Intern, PhD, Summer 2027",
-   "location": "Research Intern, PhD, Summer 2027",
+   "location": "Toronto, ON, Canada",
    "url": "https://www.google.com/about/careers/applications/jobs/results/104496653687235270-research-intern-phd-summer-2027",
    "posted": null,
    "tags": [
@@ -7445,7 +7488,7 @@
    "company": "Google",
    "group": "top",
    "title": "Project Management Apprenticeship, February 2027 Start",
-   "location": "Project Management Apprenticeship, February 2027 Start",
+   "location": "New York, NY, USA",
    "url": "https://www.google.com/about/careers/applications/jobs/results/100966617919169222-project-management-apprenticeship-february-2027-start",
    "posted": null,
    "tags": [
@@ -7460,7 +7503,7 @@
    "company": "Google",
    "group": "top",
    "title": "Product Design Engineering Intern, BS/MS, Summer 2027",
-   "location": "Product Design Engineering Intern, BS/MS, Summer 2027",
+   "location": "Mountain View, CA, USA",
    "url": "https://www.google.com/about/careers/applications/jobs/results/135755874491605702-product-design-engineering-intern-bsms-summer-2027",
    "posted": null,
    "tags": [
@@ -7475,7 +7518,7 @@
    "company": "Google",
    "group": "top",
    "title": "Post-Doctoral Researcher, PhD, 2026 Start (Fixed-Term Contract)",
-   "location": "Post-Doctoral Researcher, PhD, 2026 Start (Fixed-Term Contract)",
+   "location": "Bengaluru, Karnataka, India",
    "url": "https://www.google.com/about/careers/applications/jobs/results/122538034422784710-postdoctoral-researcher-phd-2026-start-fixedterm-contract",
    "posted": null,
    "tags": [
@@ -7535,7 +7578,7 @@
    "company": "Google",
    "group": "top",
    "title": "Information Technology Apprenticeship, February 2027 Start",
-   "location": "Information Technology Apprenticeship, February 2027 Start",
+   "location": "Austin, TX, USA",
    "url": "https://www.google.com/about/careers/applications/jobs/results/127161382939304646-information-technology-apprenticeship-february-2027-start",
    "posted": null,
    "tags": [
@@ -7565,7 +7608,7 @@
    "company": "Google",
    "group": "top",
    "title": "Hardware Engineering Intern, PhD, Summer 2027",
-   "location": "Hardware Engineering Intern, PhD, Summer 2027",
+   "location": "Mountain View, CA, USA",
    "url": "https://www.google.com/about/careers/applications/jobs/results/97352132356645574-hardware-engineering-intern-phd-summer-2027",
    "posted": null,
    "tags": [
@@ -7580,7 +7623,7 @@
    "company": "Google",
    "group": "top",
    "title": "Hardware Engineering Intern, BS/MS, Summer 2027",
-   "location": "Hardware Engineering Intern, BS/MS, Summer 2027",
+   "location": "Mountain View, CA, USA",
    "url": "https://www.google.com/about/careers/applications/jobs/results/122803627516404422-hardware-engineering-intern-bsms-summer-2027",
    "posted": null,
    "tags": [
@@ -7595,7 +7638,7 @@
    "company": "Google",
    "group": "top",
    "title": "Digital Marketing Apprenticeship, February 2027 Start",
-   "location": "Digital Marketing Apprenticeship, February 2027 Start",
+   "location": "New York, NY, USA",
    "url": "https://www.google.com/about/careers/applications/jobs/results/144076269821010630-digital-marketing-apprenticeship-february-2027-start",
    "posted": null,
    "tags": [
@@ -7610,7 +7653,7 @@
    "company": "Google",
    "group": "top",
    "title": "Design Verification Engineer, PhD, Early Career",
-   "location": "Design Verification Engineer, PhD, Early Career",
+   "location": "Bengaluru, Karnataka, India",
    "url": "https://www.google.com/about/careers/applications/jobs/results/111711283144729286-design-verification-engineer-phd-early-career",
    "posted": null,
    "tags": [
@@ -7625,7 +7668,7 @@
    "company": "Google",
    "group": "top",
    "title": "Data Scientist, Research Intern, PhD, Summer 2027",
-   "location": "Data Scientist, Research Intern, PhD, Summer 2027",
+   "location": "Mountain View, CA, USA",
    "url": "https://www.google.com/about/careers/applications/jobs/results/89965613241246406-data-scientist-research-intern-phd-summer-2027",
    "posted": null,
    "tags": [
@@ -7640,7 +7683,7 @@
    "company": "Google",
    "group": "top",
    "title": "Data Scientist, Product Intern, MS, Summer 2027",
-   "location": "Data Scientist, Product Intern, MS, Summer 2027",
+   "location": "Mountain View, CA, USA",
    "url": "https://www.google.com/about/careers/applications/jobs/results/119184035237765830-data-scientist-product-intern-ms-summer-2027",
    "posted": null,
    "tags": [
@@ -7700,7 +7743,7 @@
    "company": "Google",
    "group": "top",
    "title": "Data Center Engineering Intern, BS/MS, Summer 2027",
-   "location": "Data Center Engineering Intern, BS/MS, Summer 2027",
+   "location": "Mountain View, CA, USA",
    "url": "https://www.google.com/about/careers/applications/jobs/results/115313754307994310-data-center-engineering-intern-bsms-summer-2027",
    "posted": null,
    "tags": [
@@ -7715,7 +7758,7 @@
    "company": "Google",
    "group": "top",
    "title": "Data Analytics Apprenticeship, February 2027 Start",
-   "location": "Data Analytics Apprenticeship, February 2027 Start",
+   "location": "New York, NY, USA",
    "url": "https://www.google.com/about/careers/applications/jobs/results/132315893450318534-data-analytics-apprenticeship-february-2027-start",
    "posted": null,
    "tags": [
@@ -7730,7 +7773,7 @@
    "company": "Google",
    "group": "top",
    "title": "Customer and Partner Solutions Engineering Intern, BS/MS, Summer 2027",
-   "location": "Customer and Partner Solutions Engineering Intern, BS/MS, Summer 2027",
+   "location": "Mountain View, CA, USA",
    "url": "https://www.google.com/about/careers/applications/jobs/results/114405557703451334-customer-and-partner-solutions-engineering-intern-bsms-summer-2027",
    "posted": null,
    "tags": [
@@ -7745,7 +7788,7 @@
    "company": "Google",
    "group": "top",
    "title": "Business Data Scientist Intern, PhD, Summer 2027",
-   "location": "Business Data Scientist Intern, PhD, Summer 2027",
+   "location": "Mountain View, CA, USA",
    "url": "https://www.google.com/about/careers/applications/jobs/results/134577198026629830-business-data-scientist-intern-phd-summer-2027",
    "posted": null,
    "tags": [
@@ -7760,7 +7803,7 @@
    "company": "Google",
    "group": "top",
    "title": "Apprenticeship in Interactive Media Design EFZ, August 2027",
-   "location": "Apprenticeship in Interactive Media Design EFZ, August 2027",
+   "location": "Zürich, Switzerland",
    "url": "https://www.google.com/about/careers/applications/jobs/results/143325582015242950-apprenticeship-in-interactive-media-design-efz-august-2027",
    "posted": null,
    "tags": [
@@ -7775,7 +7818,7 @@
    "company": "Google",
    "group": "top",
    "title": "Apprenticeship in Digital Business, Entwickler:in EFZ, August 2027",
-   "location": "Apprenticeship in Digital Business, Entwickler:in EFZ, August 2027",
+   "location": "Zürich, Switzerland",
    "url": "https://www.google.com/about/careers/applications/jobs/results/111870753367827142-apprenticeship-in-digital-business-entwicklerin-efz-august-2027",
    "posted": null,
    "tags": [
@@ -7790,7 +7833,7 @@
    "company": "Google",
    "group": "top",
    "title": "Apprenticeship in Application Development, Informatiker:in EFZ Applikationsentwicklung, August 2027",
-   "location": "Apprenticeship in Application Development, Informatiker:in EFZ Applikationsentwicklung, August 2027",
+   "location": "Zürich, Switzerland",
    "url": "https://www.google.com/about/careers/applications/jobs/results/135233176434811590-apprenticeship-in-application-development-informatikerin-efz-applikationsentwicklung-august-2027",
    "posted": null,
    "tags": [
@@ -7805,7 +7848,7 @@
    "company": "Google",
    "group": "top",
    "title": "Application Engineering Intern, Winter 2027 (English)",
-   "location": "Application Engineering Intern, Winter 2027 (English)",
+   "location": "Bengaluru, Karnataka, India",
    "url": "https://www.google.com/about/careers/applications/jobs/results/92840449600824006-application-engineering-intern-winter-2027-english",
    "posted": null,
    "tags": [
@@ -7820,7 +7863,7 @@
    "company": "Google",
    "group": "top",
    "title": "Application Engineering Intern, Summer 2027 (English)",
-   "location": "Application Engineering Intern, Summer 2027 (English)",
+   "location": "Bengaluru, Karnataka, India",
    "url": "https://www.google.com/about/careers/applications/jobs/results/127840103736189638-application-engineering-intern-summer-2027-english",
    "posted": null,
    "tags": [
@@ -8416,12 +8459,12 @@
    "last_seen": "2026-09-15"
   },
   {
-   "id": "a187a11aa23d",
+   "id": "ac6454b48c6a",
    "company": "Databricks",
    "group": "top",
    "title": "Systems PhD - Software Engineer",
-   "location": "Bellevue, Washington; Seattle, Washington",
-   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8482086002",
+   "location": "Mountain View, California; San Francisco, California",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8482037002",
    "posted": "2026-08-18",
    "tags": [
     "research"
@@ -8431,12 +8474,12 @@
    "last_seen": "2026-09-15"
   },
   {
-   "id": "ac6454b48c6a",
+   "id": "a187a11aa23d",
    "company": "Databricks",
    "group": "top",
    "title": "Systems PhD - Software Engineer",
-   "location": "Mountain View, California; San Francisco, California",
-   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8482037002",
+   "location": "Bellevue, Washington; Seattle, Washington",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8482086002",
    "posted": "2026-08-18",
    "tags": [
     "research"
@@ -8552,13 +8595,28 @@
    "last_seen": "2026-09-15"
   },
   {
-   "id": "d49ee108cbb5",
+   "id": "1fcb08a276df",
    "company": "DRW",
    "group": "bank",
    "title": "Software Developer Intern",
-   "location": "Amsterdam",
-   "url": "https://job-boards.greenhouse.io/drweng/jobs/8020364",
+   "location": "London",
+   "url": "https://job-boards.greenhouse.io/drweng/jobs/7942281",
    "posted": "2026-09-12",
+   "tags": [
+    "other"
+   ],
+   "via": "greenhouse",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "3fbdee55601a",
+   "company": "DRW",
+   "group": "bank",
+   "title": "Software Developer Intern",
+   "location": "Chicago",
+   "url": "https://job-boards.greenhouse.io/drweng/jobs/7992936",
+   "posted": "2026-08-19",
    "tags": [
     "other"
    ],
@@ -8582,28 +8640,13 @@
    "last_seen": "2026-09-15"
   },
   {
-   "id": "1fcb08a276df",
+   "id": "d49ee108cbb5",
    "company": "DRW",
    "group": "bank",
    "title": "Software Developer Intern",
-   "location": "London",
-   "url": "https://job-boards.greenhouse.io/drweng/jobs/7942281",
+   "location": "Amsterdam",
+   "url": "https://job-boards.greenhouse.io/drweng/jobs/8020364",
    "posted": "2026-09-12",
-   "tags": [
-    "other"
-   ],
-   "via": "greenhouse",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15"
-  },
-  {
-   "id": "3fbdee55601a",
-   "company": "DRW",
-   "group": "bank",
-   "title": "Software Developer Intern",
-   "location": "Chicago",
-   "url": "https://job-boards.greenhouse.io/drweng/jobs/7992936",
-   "posted": "2026-08-19",
    "tags": [
     "other"
    ],
@@ -8642,12 +8685,12 @@
    "last_seen": "2026-09-15"
   },
   {
-   "id": "88c104bd7042",
+   "id": "3ef50f095941",
    "company": "DRW",
    "group": "bank",
    "title": "Quantitative Research Intern",
-   "location": "London",
-   "url": "https://job-boards.greenhouse.io/drweng/jobs/7957756",
+   "location": "Chicago, New York City",
+   "url": "https://job-boards.greenhouse.io/drweng/jobs/7818540",
    "posted": "2026-08-19",
    "tags": [
     "research"
@@ -8657,12 +8700,12 @@
    "last_seen": "2026-09-15"
   },
   {
-   "id": "3ef50f095941",
+   "id": "88c104bd7042",
    "company": "DRW",
    "group": "bank",
    "title": "Quantitative Research Intern",
-   "location": "Chicago, New York City",
-   "url": "https://job-boards.greenhouse.io/drweng/jobs/7818540",
+   "location": "London",
+   "url": "https://job-boards.greenhouse.io/drweng/jobs/7957756",
    "posted": "2026-08-19",
    "tags": [
     "research"
@@ -8702,13 +8745,13 @@
    "last_seen": "2026-09-15"
   },
   {
-   "id": "1198f02285ba",
+   "id": "a9ea4cf2382a",
    "company": "DRW",
    "group": "bank",
    "title": "Leadership Rotation Network Intern",
-   "location": "London",
-   "url": "https://job-boards.greenhouse.io/drweng/jobs/7957735",
-   "posted": "2026-08-19",
+   "location": "Chicago, IL",
+   "url": "https://job-boards.greenhouse.io/drweng/jobs/7993195",
+   "posted": "2026-09-14",
    "tags": [
     "other"
    ],
@@ -8717,13 +8760,13 @@
    "last_seen": "2026-09-15"
   },
   {
-   "id": "a9ea4cf2382a",
+   "id": "1198f02285ba",
    "company": "DRW",
    "group": "bank",
    "title": "Leadership Rotation Network Intern",
-   "location": "Chicago, IL",
-   "url": "https://job-boards.greenhouse.io/drweng/jobs/7993195",
-   "posted": "2026-09-14",
+   "location": "London",
+   "url": "https://job-boards.greenhouse.io/drweng/jobs/7957735",
+   "posted": "2026-08-19",
    "tags": [
     "other"
    ],
@@ -8936,7 +8979,7 @@
    "url": "https://www.coinbase.com/careers/positions/8175447?gh_jid=8175447",
    "posted": "2026-09-10",
    "tags": [
-    "cyber"
+    "other"
    ],
    "via": "greenhouse",
    "first_seen": "2026-09-15",
@@ -9071,7 +9114,7 @@
    "url": "https://www.coinbase.com/careers/positions/8175369?gh_jid=8175369",
    "posted": "2026-09-10",
    "tags": [
-    "cyber"
+    "other"
    ],
    "via": "greenhouse",
    "first_seen": "2026-09-15",
@@ -9461,7 +9504,7 @@
    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Tampa-Florida-United-States/Functions---Risk-Management--Summer-Analyst--Tampa---USA--2027_26955732",
    "posted": null,
    "tags": [
-    "cyber"
+    "other"
    ],
    "via": "workday",
    "first_seen": "2026-09-15",
@@ -9476,7 +9519,7 @@
    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Irving-Texas-United-States/Functions---Risk-Management--Summer-Analyst--Irving---USA--2027_26955971",
    "posted": null,
    "tags": [
-    "cyber"
+    "other"
    ],
    "via": "workday",
    "first_seen": "2026-09-15",
@@ -9491,7 +9534,7 @@
    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Getzville-New-York-United-States/Functions---Risk-Management--Summer-Analyst--Buffalo---USA--2027_26955711",
    "posted": null,
    "tags": [
-    "cyber"
+    "other"
    ],
    "via": "workday",
    "first_seen": "2026-09-15",
@@ -10354,6 +10397,321 @@
    "last_seen": "2026-09-15"
   },
   {
+   "id": "bb575b835b8d",
+   "company": "Apple",
+   "group": "top",
+   "title": "Technical Internship : Information Systems and Technology (Japan)",
+   "location": "Minato",
+   "url": "https://jobs.apple.com/en-us/details/200681134",
+   "posted": "Sep 10, 20",
+   "tags": [
+    "other"
+   ],
+   "via": "apple",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "cf6fefb30283",
+   "company": "Apple",
+   "group": "top",
+   "title": "Software Engineer Intern - Core OS",
+   "location": "Taipei",
+   "url": "https://jobs.apple.com/en-us/details/200683709",
+   "posted": "Sep 15, 20",
+   "tags": [
+    "other"
+   ],
+   "via": "apple",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "15c884ee65bb",
+   "company": "Apple",
+   "group": "top",
+   "title": "Platform Engineering Intern",
+   "location": "Munich",
+   "url": "https://jobs.apple.com/en-us/details/200614259",
+   "posted": "Sep 03, 20",
+   "tags": [
+    "other"
+   ],
+   "via": "apple",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "557eb77b8d71",
+   "company": "Apple",
+   "group": "top",
+   "title": "PMU Silicon Validation Intern (m/f/d)",
+   "location": "Munich",
+   "url": "https://jobs.apple.com/en-us/details/200682232",
+   "posted": "Sep 07, 20",
+   "tags": [
+    "other"
+   ],
+   "via": "apple",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "d69f449beae8",
+   "company": "Apple",
+   "group": "top",
+   "title": "PMU Design Verification Intern (m/f/d)",
+   "location": "Munich",
+   "url": "https://jobs.apple.com/en-us/details/200682235",
+   "posted": "Sep 07, 20",
+   "tags": [
+    "other"
+   ],
+   "via": "apple",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "de30daf1a402",
+   "company": "Apple",
+   "group": "top",
+   "title": "PHY Cellular Firmware Engineer Internship",
+   "location": "Munich",
+   "url": "https://jobs.apple.com/en-us/details/200682229",
+   "posted": "Sep 07, 20",
+   "tags": [
+    "cyber"
+   ],
+   "via": "apple",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "6096a21d469a",
+   "company": "Apple",
+   "group": "top",
+   "title": "Noise & Vibration Internship",
+   "location": "Shanghai",
+   "url": "https://jobs.apple.com/en-us/details/200681422",
+   "posted": "Sep 03, 20",
+   "tags": [
+    "other"
+   ],
+   "via": "apple",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "5a0588b60532",
+   "company": "Apple",
+   "group": "top",
+   "title": "Internship – Adhesive Materials Engineer",
+   "location": "Shanghai",
+   "url": "https://jobs.apple.com/en-us/details/200677231",
+   "posted": "Aug 11, 20",
+   "tags": [
+    "other"
+   ],
+   "via": "apple",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "c4c6ded84372",
+   "company": "Apple",
+   "group": "top",
+   "title": "Home EE Design Intern",
+   "location": "Shanghai",
+   "url": "https://jobs.apple.com/en-us/details/200682641",
+   "posted": "Sep 13, 20",
+   "tags": [
+    "other"
+   ],
+   "via": "apple",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "97da36a66d04",
+   "company": "Apple",
+   "group": "top",
+   "title": "Hardware Products Early Career Rotation Program",
+   "location": "Cupertino",
+   "url": "https://jobs.apple.com/en-us/details/200683628",
+   "posted": "Sep 14, 20",
+   "tags": [
+    "other"
+   ],
+   "via": "apple",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "83ad84e73533",
+   "company": "Apple",
+   "group": "top",
+   "title": "GPU Internships - RTL Design, RTL Power Optimisation & Physical Design",
+   "location": "Saint Albans",
+   "url": "https://jobs.apple.com/en-us/details/200679650",
+   "posted": "Aug 24, 20",
+   "tags": [
+    "other"
+   ],
+   "via": "apple",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "80934b99e84d",
+   "company": "Apple",
+   "group": "top",
+   "title": "GPU Internships - Design Verification and Emulation & Driver Live",
+   "location": "Cambridge",
+   "url": "https://jobs.apple.com/en-us/details/200679652",
+   "posted": "Aug 24, 20",
+   "tags": [
+    "other"
+   ],
+   "via": "apple",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "f51629e2b610",
+   "company": "Apple",
+   "group": "top",
+   "title": "GPU Internships - Architecture Validation, Performance Modelling & Platform Architecture",
+   "location": "London",
+   "url": "https://jobs.apple.com/en-us/details/200682357",
+   "posted": "Sep 08, 20",
+   "tags": [
+    "other"
+   ],
+   "via": "apple",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "42d35579fb64",
+   "company": "Apple",
+   "group": "top",
+   "title": "Formal Verification Intern",
+   "location": "Munich",
+   "url": "https://jobs.apple.com/en-us/details/200682664",
+   "posted": "Sep 09, 20",
+   "tags": [
+    "other"
+   ],
+   "via": "apple",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "b7fda459cab2",
+   "company": "Apple",
+   "group": "top",
+   "title": "Formal Verification Intern",
+   "location": "Saint Albans",
+   "url": "https://jobs.apple.com/en-us/details/200681934",
+   "posted": "Sep 04, 20",
+   "tags": [
+    "other"
+   ],
+   "via": "apple",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "cdc9354365c0",
+   "company": "Apple",
+   "group": "top",
+   "title": "Expression of Interests | Career Fair Events Internship",
+   "location": "Linz",
+   "url": "https://jobs.apple.com/en-us/details/200617354",
+   "posted": "Sep 10, 20",
+   "tags": [
+    "other"
+   ],
+   "via": "apple",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "a1d46bf8c39c",
+   "company": "Apple",
+   "group": "top",
+   "title": "Display Supply Quality Engineer Intern",
+   "location": "Shenzhen",
+   "url": "https://jobs.apple.com/en-us/details/200679405",
+   "posted": "Aug 28, 20",
+   "tags": [
+    "other"
+   ],
+   "via": "apple",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "d1de0300a359",
+   "company": "Apple",
+   "group": "top",
+   "title": "Circuit Design Intern (m/f/d)",
+   "location": "Munich",
+   "url": "https://jobs.apple.com/en-us/details/200682404",
+   "posted": "Sep 08, 20",
+   "tags": [
+    "other"
+   ],
+   "via": "apple",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "05c6686305fb",
+   "company": "Apple",
+   "group": "top",
+   "title": "CN-Specialist: Seasonal, Full-Time or Part-Time or Intern",
+   "location": "China",
+   "url": "https://jobs.apple.com/en-us/details/114438030",
+   "posted": "Sep 15, 20",
+   "tags": [
+    "other"
+   ],
+   "via": "apple",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "a54c64fa70ea",
+   "company": "Apple",
+   "group": "top",
+   "title": "Apple Vision Pro Hardware System EE Intern",
+   "location": "Shanghai",
+   "url": "https://jobs.apple.com/en-us/details/200681917",
+   "posted": "Sep 11, 20",
+   "tags": [
+    "other"
+   ],
+   "via": "apple",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "b29d34d4a005",
+   "company": "Apple",
+   "group": "top",
+   "title": "Advanced Optics Design&Validation Student - Camera HW",
+   "location": "Herzliya",
+   "url": "https://jobs.apple.com/en-us/details/200625015",
+   "posted": "Aug 26, 20",
+   "tags": [
+    "other"
+   ],
+   "via": "apple",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
    "id": "b495d00600e5",
    "company": "Anthropic",
    "group": "top",
@@ -10531,7 +10889,7 @@
    "url": "https://www.amazon.jobs/en/jobs/10506844/tax-intern-indirect-tax-compliance",
    "posted": "August 19,",
    "tags": [
-    "cyber"
+    "other"
    ],
    "via": "amazon",
    "first_seen": "2026-09-15",
@@ -10546,7 +10904,7 @@
    "url": "https://www.amazon.jobs/en/jobs/10506461/tax-intern-indirect-tax-compliance",
    "posted": "August 19,",
    "tags": [
-    "cyber"
+    "other"
    ],
    "via": "amazon",
    "first_seen": "2026-09-15",
