@@ -1,0 +1,38 @@
+name: Probe (debug helper)
+
+on:
+  workflow_dispatch:
+    inputs:
+      cmd:
+        description: "bash commands to run; output is pushed to branch 'probe' as debug/out.txt"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -q -r requirements.txt
+      - name: Run
+        env:
+          CMD: ${{ inputs.cmd }}
+        run: |
+          mkdir -p /tmp/dbg
+          bash -c "$CMD" > /tmp/dbg/out.txt 2>&1 || true
+          head -c 400000 /tmp/dbg/out.txt > /tmp/dbg/out_trunc.txt
+      - name: Publish to branch probe
+        run: |
+          git config user.name "probe-bot"; git config user.email "bot@users.noreply.github.com"
+          git checkout --orphan probe
+          git rm -rfq --cached . && rm -rf ./* .github .gitignore
+          mkdir -p debug && cp /tmp/dbg/out_trunc.txt debug/out.txt
+          git add debug && git commit -qm "probe $(date -u +%FT%TZ)"
+          git push -f origin probe
