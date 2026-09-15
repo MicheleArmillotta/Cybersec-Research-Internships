@@ -21,6 +21,15 @@ GitHub Actions (cron) -> python -m scraper -> docs/data/*.json -> git commit -> 
 - `scraper/run.py` — runs everything in parallel, merges with the previous data (to keep `first_seen`), and keeps
   old postings from sources that failed today so a transient error doesn't wipe them.
 
+## Known limitations
+
+Some career sites block requests coming from GitHub's Actions runners (Microsoft, Meta, Tesla, Qualcomm, iCIMS-based
+sites like AMD/Arm, and a few others). They are listed with direct links in the "Not trackable automatically" section
+of the site instead. `docs/data/status.json` (and the "Source status" panel) shows which sources worked on the last run.
+
+`.github/workflows/probe.yml` is a debugging helper: it runs an arbitrary shell command on a runner and publishes the
+output to the `probe` branch. Handy when a source breaks and you need to see what the site actually returns.
+
 ## Run locally
 
 ```

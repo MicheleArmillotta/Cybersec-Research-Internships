@@ -154,7 +154,7 @@ def workday(cfg):
         found = {}
         for q in queries:
             offset = 0
-            for _ in range(15):
+            for _ in range(60):  # up to 1200 postings per query (some tenants ignore searchText)
                 body = {"appliedFacets": {}, "limit": 20, "offset": offset, "searchText": q}
                 r = _session.post(url, json=body, timeout=TIMEOUT,
                                   headers={"Accept": "application/json", "Content-Type": "application/json"})

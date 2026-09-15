@@ -20,8 +20,6 @@ SOURCES = [
      "tenant": "nvidia", "site": ["NVIDIAExternalCareerSite"], "queries": ["intern", "security intern", "PhD"]},
     {"company": "Intel", "group": "top", "type": "workday", "host": "intel.wd1.myworkdayjobs.com",
      "tenant": "intel", "site": ["External"], "queries": ["intern", "security intern", "PhD"]},
-    {"company": "AMD", "group": "top", "type": "page_scan", "url": ["https://careers-amd.icims.com/jobs/search?ss=1&searchKeyword=intern&in_iframe=1", "https://careers-amd.icims.com/jobs/search?ss=1&searchKeyword=security&in_iframe=1"]},
-    {"company": "Arm", "group": "top", "type": "page_scan", "url": ["https://earlycareers-arm.icims.com/jobs/search?ss=1&in_iframe=1", "https://experienced-arm.icims.com/jobs/search?ss=1&searchKeyword=security&in_iframe=1"]},
     {"company": "IBM", "group": "top", "type": "ibm", "queries": ["intern", "security intern", "research intern"]},
     {"company": "IBM Research", "group": "top", "type": "page_scan",
      "url": ["https://research.ibm.com/careers", "https://www.zurich.ibm.com/careers/"]},
