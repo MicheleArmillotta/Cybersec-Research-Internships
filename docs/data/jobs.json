@@ -1,6 +1,6 @@
 {
- "generated_at": "2026-09-15T11:36:16+00:00",
- "count": 939,
+ "generated_at": "2026-09-15T11:43:32+00:00",
+ "count": 1084,
  "jobs": [
   {
    "id": "9081bfb764c2",
@@ -79,6 +79,21 @@
    "last_seen": "2026-09-15"
   },
   {
+   "id": "bb368df55346",
+   "company": "Stripe",
+   "group": "top",
+   "title": "Software Engineer, Intern (Summer or Winter)",
+   "location": "San Francisco, Seattle, New York City",
+   "url": "https://stripe.com/jobs/search?gh_jid=8128745",
+   "posted": "2026-09-10",
+   "tags": [
+    "other"
+   ],
+   "via": "greenhouse",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
    "id": "fbca5d740624",
    "company": "Stripe",
    "group": "top",
@@ -109,21 +124,6 @@
    "last_seen": "2026-09-15"
   },
   {
-   "id": "bb368df55346",
-   "company": "Stripe",
-   "group": "top",
-   "title": "Software Engineer, Intern (Summer or Winter)",
-   "location": "San Francisco, Seattle, New York City",
-   "url": "https://stripe.com/jobs/search?gh_jid=8128745",
-   "posted": "2026-09-10",
-   "tags": [
-    "other"
-   ],
-   "via": "greenhouse",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15"
-  },
-  {
    "id": "9f85242b0401",
    "company": "Stripe",
    "group": "top",
@@ -139,12 +139,12 @@
    "last_seen": "2026-09-15"
   },
   {
-   "id": "e8d341de03bf",
+   "id": "ab593a02bad0",
    "company": "Stripe",
    "group": "top",
    "title": "Software Engineer, Intern",
-   "location": "Bengaluru",
-   "url": "https://stripe.com/jobs/search?gh_jid=8031833",
+   "location": "London",
+   "url": "https://stripe.com/jobs/search?gh_jid=8130867",
    "posted": "2026-09-10",
    "tags": [
     "other"
@@ -154,12 +154,12 @@
    "last_seen": "2026-09-15"
   },
   {
-   "id": "ab593a02bad0",
+   "id": "e8d341de03bf",
    "company": "Stripe",
    "group": "top",
    "title": "Software Engineer, Intern",
-   "location": "London",
-   "url": "https://stripe.com/jobs/search?gh_jid=8130867",
+   "location": "Bengaluru",
+   "url": "https://stripe.com/jobs/search?gh_jid=8031833",
    "posted": "2026-09-10",
    "tags": [
     "other"
@@ -484,6 +484,111 @@
    "last_seen": "2026-09-15"
   },
   {
+   "id": "8f0f4c10ac8f",
+   "company": "Snowflake",
+   "group": "top",
+   "title": "Strategic Events Intern - London",
+   "location": "London, United Kingdom",
+   "url": "https://careers.snowflake.com/us/en/job/SNCOUS4A93AD130082434AA0151F72AD1E18C2EXTERNALENUS3CEFF86F2CAE4DEF9504D8D182B91EB4",
+   "posted": "2026-08-07",
+   "tags": [
+    "other"
+   ],
+   "via": "phenom",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "92c3f6e29e16",
+   "company": "Snowflake",
+   "group": "top",
+   "title": "Software Engineer Intern - Warsaw Security",
+   "location": "Warsaw, Poland",
+   "url": "https://careers.snowflake.com/us/en/job/SNCOUS3045856C74A4469EBA81A176CC0BEF8FEXTERNALENUSFC1923C1B1514458A79240D58331A5BE",
+   "posted": "2026-08-05",
+   "tags": [
+    "cyber"
+   ],
+   "via": "phenom",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "8336560c55b9",
+   "company": "Snowflake",
+   "group": "top",
+   "title": "Software Engineer Intern - Berlin (2026)",
+   "location": "Berlin, Germany",
+   "url": "https://careers.snowflake.com/us/en/job/SNCOUS3A9BAEAFB10741FBA9B3A98AB78275EDEXTERNALENUS41E65C6CA01E4F40AF14AE75D3B95E27",
+   "posted": "2026-06-02",
+   "tags": [
+    "other"
+   ],
+   "via": "phenom",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "7fc5562c39de",
+   "company": "Snowflake",
+   "group": "top",
+   "title": "SDR Intern - Munich",
+   "location": "Munich, Germany",
+   "url": "https://careers.snowflake.com/us/en/job/SNCOUS7531F5E5D0D04BEDBCCFC15FFE41C4DCEXTERNALENUSA475382275814CF38FCC856F54D684B0",
+   "posted": "2026-07-09",
+   "tags": [
+    "other"
+   ],
+   "via": "phenom",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "1393587687d4",
+   "company": "Snowflake",
+   "group": "top",
+   "title": "SDR Intern - London",
+   "location": "London, United Kingdom",
+   "url": "https://careers.snowflake.com/us/en/job/SNCOUSDC00EE5518F64193A08C5A9C8ACB00A6EXTERNALENUSB9BD62F1AD91423AA680CF9366960976",
+   "posted": "2026-08-04",
+   "tags": [
+    "other"
+   ],
+   "via": "phenom",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "cb58a11aff20",
+   "company": "Snowflake",
+   "group": "top",
+   "title": "Partner Marketing Intern - Paris (French Speaking",
+   "location": "Paris, France",
+   "url": "https://careers.snowflake.com/us/en/job/SNCOUS7492686C0911469A9B5B6DFCB30AB43BEXTERNALENUS54C2799358274A0380C8CC5F02B960F9",
+   "posted": "2026-07-08",
+   "tags": [
+    "other"
+   ],
+   "via": "phenom",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "f9c54f659192",
+   "company": "Snowflake",
+   "group": "top",
+   "title": "Applied AI Intern - Warsaw",
+   "location": "Warsaw, Poland",
+   "url": "https://careers.snowflake.com/us/en/job/SNCOUSEFBBDDDD18A14D9D94553E82166B42F6EXTERNALENUS90190B16FD2743668C109C4896157681",
+   "posted": "2026-09-08",
+   "tags": [
+    "ai"
+   ],
+   "via": "phenom",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
    "id": "7b87660198b3",
    "company": "SentinelOne",
    "group": "boutique",
@@ -740,12 +845,12 @@
    "last_seen": "2026-09-15"
   },
   {
-   "id": "3ea3c2c09d06",
+   "id": "a4ab66a23bd2",
    "company": "Roblox",
    "group": "top",
    "title": "[2026] Senior Machine Learning Engineer (Systems), Embodied AI/NPCs, ML Platform - PhD Early Career",
    "location": "San Mateo, CA, United States",
-   "url": "https://careers.roblox.com/jobs/8027587?gh_jid=8027587",
+   "url": "https://careers.roblox.com/jobs/8027588?gh_jid=8027588",
    "posted": "2026-08-17",
    "tags": [
     "research",
@@ -756,12 +861,12 @@
    "last_seen": "2026-09-15"
   },
   {
-   "id": "a4ab66a23bd2",
+   "id": "3ea3c2c09d06",
    "company": "Roblox",
    "group": "top",
    "title": "[2026] Senior Machine Learning Engineer (Systems), Embodied AI/NPCs, ML Platform - PhD Early Career",
    "location": "San Mateo, CA, United States",
-   "url": "https://careers.roblox.com/jobs/8027588?gh_jid=8027588",
+   "url": "https://careers.roblox.com/jobs/8027587?gh_jid=8027587",
    "posted": "2026-08-17",
    "tags": [
     "research",
@@ -1777,12 +1882,12 @@
    "last_seen": "2026-09-15"
   },
   {
-   "id": "245542135c40",
+   "id": "b95efba0a3bd",
    "company": "Optiver",
    "group": "bank",
    "title": "Software Engineer Internship (2027 Start)",
-   "location": "London, England, United Kingdom",
-   "url": "https://www.optiver.com/join-us/jobs/8713435002/?gh_jid=8713435002",
+   "location": "Amsterdam, North Holland, Netherlands",
+   "url": "https://www.optiver.com/join-us/jobs/8713409002/?gh_jid=8713409002",
    "posted": "2026-09-09",
    "tags": [
     "other"
@@ -1792,12 +1897,12 @@
    "last_seen": "2026-09-15"
   },
   {
-   "id": "b95efba0a3bd",
+   "id": "245542135c40",
    "company": "Optiver",
    "group": "bank",
    "title": "Software Engineer Internship (2027 Start)",
-   "location": "Amsterdam, North Holland, Netherlands",
-   "url": "https://www.optiver.com/join-us/jobs/8713409002/?gh_jid=8713409002",
+   "location": "London, England, United Kingdom",
+   "url": "https://www.optiver.com/join-us/jobs/8713435002/?gh_jid=8713435002",
    "posted": "2026-09-09",
    "tags": [
     "other"
@@ -1927,21 +2032,6 @@
    "last_seen": "2026-09-15"
   },
   {
-   "id": "67ac72a51c86",
-   "company": "Optiver",
-   "group": "bank",
-   "title": "Quantitative Research Intern, PhD (Summer 2027)",
-   "location": "Chicago, Illinois, United States",
-   "url": "https://www.optiver.com/join-us/jobs/8451781002/?gh_jid=8451781002",
-   "posted": "2026-08-24",
-   "tags": [
-    "research"
-   ],
-   "via": "greenhouse",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15"
-  },
-  {
    "id": "bb801ca056ba",
    "company": "Optiver",
    "group": "bank",
@@ -1957,15 +2047,15 @@
    "last_seen": "2026-09-15"
   },
   {
-   "id": "393235d976a0",
+   "id": "67ac72a51c86",
    "company": "Optiver",
    "group": "bank",
-   "title": "Quantitative Intern (Summer 2027)",
-   "location": "Austin, Texas, United States",
-   "url": "https://www.optiver.com/join-us/jobs/8682750002/?gh_jid=8682750002",
-   "posted": "2026-08-05",
+   "title": "Quantitative Research Intern, PhD (Summer 2027)",
+   "location": "Chicago, Illinois, United States",
+   "url": "https://www.optiver.com/join-us/jobs/8451781002/?gh_jid=8451781002",
+   "posted": "2026-08-24",
    "tags": [
-    "other"
+    "research"
    ],
    "via": "greenhouse",
    "first_seen": "2026-09-15",
@@ -1987,15 +2077,15 @@
    "last_seen": "2026-09-15"
   },
   {
-   "id": "90a286e1a81c",
+   "id": "393235d976a0",
    "company": "Optiver",
    "group": "bank",
-   "title": "Graduate Quantitative Researcher, PhD (2027 Start)",
-   "location": "Chicago, Illinois, United States",
-   "url": "https://www.optiver.com/join-us/jobs/8451762002/?gh_jid=8451762002",
-   "posted": "2026-08-24",
+   "title": "Quantitative Intern (Summer 2027)",
+   "location": "Austin, Texas, United States",
+   "url": "https://www.optiver.com/join-us/jobs/8682750002/?gh_jid=8682750002",
+   "posted": "2026-08-05",
    "tags": [
-    "research"
+    "other"
    ],
    "via": "greenhouse",
    "first_seen": "2026-09-15",
@@ -2008,6 +2098,21 @@
    "title": "Graduate Quantitative Researcher, PhD (2027 Start)",
    "location": "Austin, Texas, United States",
    "url": "https://www.optiver.com/join-us/jobs/8451763002/?gh_jid=8451763002",
+   "posted": "2026-08-24",
+   "tags": [
+    "research"
+   ],
+   "via": "greenhouse",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "90a286e1a81c",
+   "company": "Optiver",
+   "group": "bank",
+   "title": "Graduate Quantitative Researcher, PhD (2027 Start)",
+   "location": "Chicago, Illinois, United States",
+   "url": "https://www.optiver.com/join-us/jobs/8451762002/?gh_jid=8451762002",
    "posted": "2026-08-24",
    "tags": [
     "research"
@@ -6399,6 +6504,1820 @@
    "last_seen": "2026-09-15"
   },
   {
+   "id": "022828de4916",
+   "company": "IBM",
+   "group": "top",
+   "title": "[AI Foundation]Research Student Intern",
+   "location": "Tokyo, JP",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=131649",
+   "posted": null,
+   "tags": [
+    "research",
+    "ai"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "36fccf775d2e",
+   "company": "IBM",
+   "group": "top",
+   "title": "User Experience Design, Research and Content Intern 2027",
+   "location": "POUGHKEEPSIE, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=130118",
+   "posted": null,
+   "tags": [
+    "research"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "7bbf42db7458",
+   "company": "IBM",
+   "group": "top",
+   "title": "Technical Support Intern 2027",
+   "location": "Multiple Cities",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128516",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "590f7f5a9cd1",
+   "company": "IBM",
+   "group": "top",
+   "title": "Sustainability & Business Transformation Intern 2027",
+   "location": "RESEARCH TRIANGLE PARK, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=131537",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "722c1a388ff3",
+   "company": "IBM",
+   "group": "top",
+   "title": "Supply Chain Sustainability Intern 2027",
+   "location": "RESEARCH TRIANGLE PARK, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=130091",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "d79cf8854c3c",
+   "company": "IBM",
+   "group": "top",
+   "title": "Subscription and Annuity Representative Intern – Entry Level Sales Program 2027",
+   "location": "Markham, CA",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=130865",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "8dfb4491bf32",
+   "company": "IBM",
+   "group": "top",
+   "title": "Strategy Consultant Intern 2027 – Enterprise Application Integration (EAI)",
+   "location": "COLUMBIA, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128717",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "fe0eec66d02b",
+   "company": "IBM",
+   "group": "top",
+   "title": "Storage Systems Research Scientist Intern 2027",
+   "location": "San Jose, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=132567",
+   "posted": null,
+   "tags": [
+    "research"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "0618620634b5",
+   "company": "IBM",
+   "group": "top",
+   "title": "Software Developer Intern/Tucson-AZ",
+   "location": "TUCSON, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=130092",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "0d99e7cc2cf0",
+   "company": "IBM",
+   "group": "top",
+   "title": "Software Developer Intern-Rochester, MN",
+   "location": "ROCHESTER, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=130103",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "df4715453bbe",
+   "company": "IBM",
+   "group": "top",
+   "title": "Software Developer Intern-Poughkeepsie, NY",
+   "location": "POUGHKEEPSIE, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=130113",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "97451a07b145",
+   "company": "IBM",
+   "group": "top",
+   "title": "Software Developer Intern-Austin-TX",
+   "location": "Austin, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=130116",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "9b6b3bcded73",
+   "company": "IBM",
+   "group": "top",
+   "title": "Software Developer Intern 2027",
+   "location": "Multiple Cities",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128497",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "d5aeab2b617d",
+   "company": "IBM",
+   "group": "top",
+   "title": "Software Developer Intern 2027",
+   "location": "POUGHKEEPSIE, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=129778",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "21b989b6d25f",
+   "company": "IBM",
+   "group": "top",
+   "title": "Software Developer - Security - Intern 2027",
+   "location": "Yorktown Heights, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=131988",
+   "posted": null,
+   "tags": [
+    "cyber"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "e1d2b50604d8",
+   "company": "IBM",
+   "group": "top",
+   "title": "Silicon Technology Research and Development Software Engineering Intern - 2027",
+   "location": "Multiple Cities",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=132407",
+   "posted": null,
+   "tags": [
+    "research"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "777394558df6",
+   "company": "IBM",
+   "group": "top",
+   "title": "Silicon Technology Research and Development Research Scientist Intern - 2027",
+   "location": "Multiple Cities",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=132430",
+   "posted": null,
+   "tags": [
+    "research"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "2414601d2a78",
+   "company": "IBM",
+   "group": "top",
+   "title": "Silicon Technology Research and Development Hardware Engineering Intern 2027",
+   "location": "Albany, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=132432",
+   "posted": null,
+   "tags": [
+    "research"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "57656d1e35bf",
+   "company": "IBM",
+   "group": "top",
+   "title": "Security Consultant Intern 2027",
+   "location": "Chicago, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128712",
+   "posted": null,
+   "tags": [
+    "cyber"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "f2a15978b720",
+   "company": "IBM",
+   "group": "top",
+   "title": "SW Developer Intern- Austin TX 2027",
+   "location": "Austin, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=131828",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "c72cd347d9fb",
+   "company": "IBM",
+   "group": "top",
+   "title": "SW Developer Intern | Enterprise Platform-as-a-Service - Durham, NC - 2027",
+   "location": "DURHAM, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=131205",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "2ed82d05c147",
+   "company": "IBM",
+   "group": "top",
+   "title": "SW Developer Intern | Enterprise Platform-as-a-Service - Austin, TX - 2027",
+   "location": "Austin, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=131195",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "51309d90afa2",
+   "company": "IBM",
+   "group": "top",
+   "title": "SW Developer Intern | Enterprise Platform-as-a-Service",
+   "location": "Markham, CA",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=132000",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "d4314d2cdfb1",
+   "company": "IBM",
+   "group": "top",
+   "title": "SW Developer Intern | AI Center of Excellence - Austin, TX - 2027",
+   "location": "Austin, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=131176",
+   "posted": null,
+   "tags": [
+    "ai"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "00c407fbb3fb",
+   "company": "IBM",
+   "group": "top",
+   "title": "Research Intern: Linear Algebra and Hamiltonian Simulation - 2027",
+   "location": "Multiple Cities",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=131916",
+   "posted": null,
+   "tags": [
+    "research"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "27990c8345c4",
+   "company": "IBM",
+   "group": "top",
+   "title": "Research Intern — AI and Quantum Algorithms for Optimization 2027",
+   "location": "Yorktown Heights, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=132434",
+   "posted": null,
+   "tags": [
+    "research",
+    "ai"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "c01e8ceecd79",
+   "company": "IBM",
+   "group": "top",
+   "title": "Research AI Engineer Intern 2027",
+   "location": "Yorktown Heights, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=132569",
+   "posted": null,
+   "tags": [
+    "research",
+    "ai"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "e8dfedd1bcb4",
+   "company": "IBM",
+   "group": "top",
+   "title": "Quantum Algorithms and Quantum Machine Learning Intern 2027",
+   "location": "Chicago, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=132433",
+   "posted": null,
+   "tags": [
+    "research",
+    "ai"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "9ab03c975c64",
+   "company": "IBM",
+   "group": "top",
+   "title": "QA/Test Engineer Intern-Tucson, AZ",
+   "location": "TUCSON, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=130074",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "5200dcae92cd",
+   "company": "IBM",
+   "group": "top",
+   "title": "QA/Test Engineer Intern-Poughkeepsie, NY",
+   "location": "POUGHKEEPSIE, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=130043",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "80e5ba5f0cf9",
+   "company": "IBM",
+   "group": "top",
+   "title": "Product Manager Intern 2027",
+   "location": "Multiple Cities",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128509",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "156f56dc5e82",
+   "company": "IBM",
+   "group": "top",
+   "title": "Product Management Intern | Infrastructure Growth & Innovation - Poughkeepsie, NY / Austin, TX - 2027",
+   "location": "Multiple Cities",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=131158",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "dcc7232891ec",
+   "company": "IBM",
+   "group": "top",
+   "title": "Product Management Intern 2027",
+   "location": "POUGHKEEPSIE, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=129752",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "ace662740205",
+   "company": "IBM",
+   "group": "top",
+   "title": "Product Designer Intern - 2027",
+   "location": "Yorktown Heights, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=131592",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "9bb0bc0fd3b2",
+   "company": "IBM",
+   "group": "top",
+   "title": "Procurement Intern: 2027",
+   "location": "RESEARCH TRIANGLE PARK, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=129790",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "4944eada05a1",
+   "company": "IBM",
+   "group": "top",
+   "title": "Portfolio Development Intern 2027",
+   "location": "New York, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=130098",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "1819a0d8ab25",
+   "company": "IBM",
+   "group": "top",
+   "title": "Oracle Consultant Intern/ Consultant stagiaire Oracle",
+   "location": "Multiple Cities",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=130071",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "dafd23c53e6d",
+   "company": "IBM",
+   "group": "top",
+   "title": "Operations Project Manager Internship - 2027",
+   "location": "Multiple Cities",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=131301",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "9ff1732fe1dc",
+   "company": "IBM",
+   "group": "top",
+   "title": "Microarchitecture / Software Intern  2027 - AI Accelerators Research",
+   "location": "Yorktown Heights, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=132416",
+   "posted": null,
+   "tags": [
+    "research",
+    "ai"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "5ab43ada1b8e",
+   "company": "IBM",
+   "group": "top",
+   "title": "Intern Supply Chain Specialist - SAP Materials Management & Sales and Distribution – 2027",
+   "location": "BATON ROUGE, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=130386",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "cc0ca3242ba7",
+   "company": "IBM",
+   "group": "top",
+   "title": "Intern Supply Chain Specialist - 2027",
+   "location": "BATON ROUGE, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=129625",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "3dca1fc99d76",
+   "company": "IBM",
+   "group": "top",
+   "title": "Intern Security Consultant - Cyber Strategy & Risk 2027",
+   "location": "Dallas, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128524",
+   "posted": null,
+   "tags": [
+    "cyber"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "1bdc3fa65701",
+   "company": "IBM",
+   "group": "top",
+   "title": "Intern Security Consultant - Cyber Strategy & Risk 2027",
+   "location": "Chicago, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128551",
+   "posted": null,
+   "tags": [
+    "cyber"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "ee09e45a8c5c",
+   "company": "IBM",
+   "group": "top",
+   "title": "Intern Package Specialist 2027 - Workday",
+   "location": "BATON ROUGE, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=129200",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "d8151ca30bfc",
+   "company": "IBM",
+   "group": "top",
+   "title": "Intern Package Consultant – Microsoft 2027",
+   "location": "Chicago, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128728",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "6f926f136c74",
+   "company": "IBM",
+   "group": "top",
+   "title": "Intern Oracle Cloud 2027",
+   "location": "Dallas, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128591",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "3f396a798868",
+   "company": "IBM",
+   "group": "top",
+   "title": "Intern Oracle Cloud - 2027",
+   "location": "Chicago, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128563",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "8901c94e75fa",
+   "company": "IBM",
+   "group": "top",
+   "title": "Intern Oracle Cloud - 2027",
+   "location": "Chicago, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128560",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "2f7de8f4b156",
+   "company": "IBM",
+   "group": "top",
+   "title": "Intern Finance Specialist – Finance Transformation – 2027",
+   "location": "BATON ROUGE, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=132002",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "ba39273d0943",
+   "company": "IBM",
+   "group": "top",
+   "title": "Intern Finance Specialist 2027 - SAP Application Operations",
+   "location": "BATON ROUGE, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=129635",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "cc5d2afef5a5",
+   "company": "IBM",
+   "group": "top",
+   "title": "Intern Developer – Adobe 2027",
+   "location": "New York, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128716",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "1e6e6f2d1b94",
+   "company": "IBM",
+   "group": "top",
+   "title": "Intern Developer – Adobe 2027",
+   "location": "Chicago, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128779",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "dba850b57e3a",
+   "company": "IBM",
+   "group": "top",
+   "title": "Intern Data Specialist 2027 - AI & Analytics",
+   "location": "Lansing, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128792",
+   "posted": null,
+   "tags": [
+    "ai"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "3d06411a96a6",
+   "company": "IBM",
+   "group": "top",
+   "title": "Intern Data Scientist 2027 – AI & Data Analytics",
+   "location": "Chicago, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128611",
+   "posted": null,
+   "tags": [
+    "research",
+    "ai"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "f06f4ab9d8ae",
+   "company": "IBM",
+   "group": "top",
+   "title": "Intern Data Scientist 2027 – AI & Data Analytics",
+   "location": "Dallas, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128613",
+   "posted": null,
+   "tags": [
+    "research",
+    "ai"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "415b507d6fa4",
+   "company": "IBM",
+   "group": "top",
+   "title": "Intern Data Engineers - AI & Analytics - 2027",
+   "location": "Buffalo, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=129637",
+   "posted": null,
+   "tags": [
+    "ai"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "af8232c239cb",
+   "company": "IBM",
+   "group": "top",
+   "title": "Intern Data Engineers - AI & Analytics - 2027",
+   "location": "BATON ROUGE, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128818",
+   "posted": null,
+   "tags": [
+    "ai"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "5c3de33ffb23",
+   "company": "IBM",
+   "group": "top",
+   "title": "Intern Data Engineer 2027 – AI & Data Analytics",
+   "location": "Chicago, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128610",
+   "posted": null,
+   "tags": [
+    "ai"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "1a63775bcc86",
+   "company": "IBM",
+   "group": "top",
+   "title": "Intern Data Engineer - Data Services - 2027",
+   "location": "MONROE, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128823",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "eb9c80039471",
+   "company": "IBM",
+   "group": "top",
+   "title": "Intern Data Engineer - Data Services - 2027",
+   "location": "Buffalo, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128827",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "0ab325c90e25",
+   "company": "IBM",
+   "group": "top",
+   "title": "Intern Data Engineer - Data Services - 2027",
+   "location": "BATON ROUGE, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128824",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "ea208bf9f7d0",
+   "company": "IBM",
+   "group": "top",
+   "title": "Intern Data Engineer - AI & Analytics - 2027",
+   "location": "MONROE, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=129628",
+   "posted": null,
+   "tags": [
+    "ai"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "66dffb21da53",
+   "company": "IBM",
+   "group": "top",
+   "title": "Intern Cybersecurity Specialist – 2027",
+   "location": "BATON ROUGE, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128807",
+   "posted": null,
+   "tags": [
+    "cyber"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "24df801ce538",
+   "company": "IBM",
+   "group": "top",
+   "title": "Intern Cybersecurity Specialist – 2027",
+   "location": "Lansing, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128910",
+   "posted": null,
+   "tags": [
+    "cyber"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "8c8eeb23c450",
+   "company": "IBM",
+   "group": "top",
+   "title": "Intern Business Transformation Consultant 2027 – IBM Tech",
+   "location": "Multiple Cities",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=129133",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "91f57d65037d",
+   "company": "IBM",
+   "group": "top",
+   "title": "Intern Business Transformation Consultant 2027 - Finance Transformation",
+   "location": "Buffalo, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128906",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "e96e502cb651",
+   "company": "IBM",
+   "group": "top",
+   "title": "Intern Business Transformation Consultant - Adobe 2027",
+   "location": "Chicago, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128522",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "2d39ed7b98ad",
+   "company": "IBM",
+   "group": "top",
+   "title": "Intern Application Developer – Salesforce - 2027",
+   "location": "BATON ROUGE, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128922",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "4eca0be6a3ba",
+   "company": "IBM",
+   "group": "top",
+   "title": "Intern Application Developer – Oracle - 2027",
+   "location": "BATON ROUGE, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128790",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "a9ef2cba7dcd",
+   "company": "IBM",
+   "group": "top",
+   "title": "Intern Application Developer – IBM Technology & Red Hat - 2027",
+   "location": "BATON ROUGE, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=129250",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "a33cc57b8425",
+   "company": "IBM",
+   "group": "top",
+   "title": "Intern Application Developer – Azure and Microsoft - 2027",
+   "location": "BATON ROUGE, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128784",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "b02438d2c419",
+   "company": "IBM",
+   "group": "top",
+   "title": "Intern Application Developer – Adobe - 2027",
+   "location": "Buffalo, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128797",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "47619873807b",
+   "company": "IBM",
+   "group": "top",
+   "title": "Intern Application Developer 2027 – DPE",
+   "location": "Chicago, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128825",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "a414d9e68352",
+   "company": "IBM",
+   "group": "top",
+   "title": "Intern Application Developer 2027 - ServiceNow",
+   "location": "BATON ROUGE, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=131081",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "6c6c89ec349e",
+   "company": "IBM",
+   "group": "top",
+   "title": "Intern Application Developer - Oracle - 2027",
+   "location": "BATON ROUGE, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128815",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "2cdd437da93c",
+   "company": "IBM",
+   "group": "top",
+   "title": "Intern Application Consultant – Microsoft 2027",
+   "location": "New York, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128527",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "92f07c9127bc",
+   "company": "IBM",
+   "group": "top",
+   "title": "Intern Application Consultant 2027 – IBM Tech",
+   "location": "Multiple Cities",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128754",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "85dbc347e6b8",
+   "company": "IBM",
+   "group": "top",
+   "title": "Intern Application Consultant 2027 – IBM Tech",
+   "location": "Dallas, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128748",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "41f40c62e0a9",
+   "company": "IBM",
+   "group": "top",
+   "title": "Intern Application Consultant 2027 – DPE",
+   "location": "Dallas, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128742",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "66147c9bf20a",
+   "company": "IBM",
+   "group": "top",
+   "title": "IBM Z Engineering System Test QA/Test Developer Intern - Poughkeepsie, NY - 2027",
+   "location": "POUGHKEEPSIE, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=129927",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "7bdb0b5c750e",
+   "company": "IBM",
+   "group": "top",
+   "title": "IBM Z Engineering System Test Hardware Developer - Poughkeepsie, NY - Intern 2027",
+   "location": "POUGHKEEPSIE, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=129926",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "da245bb96746",
+   "company": "IBM",
+   "group": "top",
+   "title": "IBM Research Intern 2027: AI Systems",
+   "location": "Multiple Cities",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=131598",
+   "posted": null,
+   "tags": [
+    "research",
+    "ai"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "f2df8c6d1a1e",
+   "company": "IBM",
+   "group": "top",
+   "title": "Human Resources Intern - 2027",
+   "location": "Armonk, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128347",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "1ea1de7ccb3a",
+   "company": "IBM",
+   "group": "top",
+   "title": "Hacker Intern 2027",
+   "location": "Austin, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=129253",
+   "posted": null,
+   "tags": [
+    "cyber"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "bfcb83706fd0",
+   "company": "IBM",
+   "group": "top",
+   "title": "Experience Consultant Intern 2027",
+   "location": "Multiple Cities",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128697",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "e8bd6d4daf08",
+   "company": "IBM",
+   "group": "top",
+   "title": "DevOps Intern-Poughkeepsie, NY",
+   "location": "POUGHKEEPSIE, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=130068",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "5d1d4a528b28",
+   "company": "IBM",
+   "group": "top",
+   "title": "Designer Intern-Austin-TX",
+   "location": "Austin, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=130084",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "88bf584fd6d6",
+   "company": "IBM",
+   "group": "top",
+   "title": "Design Intern 2027 - Advanced Integrated Circuits Research",
+   "location": "Yorktown Heights, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=132810",
+   "posted": null,
+   "tags": [
+    "research"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "51bb0606cdfd",
+   "company": "IBM",
+   "group": "top",
+   "title": "Design Intern 2027",
+   "location": "Mulhuddart, IE",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=132615",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "f22f8dd5ed06",
+   "company": "IBM",
+   "group": "top",
+   "title": "Data Scientist Intern - Poughkeepsie, NY - 2027",
+   "location": "POUGHKEEPSIE, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=130037",
+   "posted": null,
+   "tags": [
+    "research"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "2b638c8e143c",
+   "company": "IBM",
+   "group": "top",
+   "title": "Consultant Intern – Workday 2027",
+   "location": "Chicago, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128657",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "be56d7156841",
+   "company": "IBM",
+   "group": "top",
+   "title": "Consultant Intern – SAP 2027",
+   "location": "New York, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128763",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "0369d81796b6",
+   "company": "IBM",
+   "group": "top",
+   "title": "Consultant Intern – SAP 2027",
+   "location": "Dallas, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128760",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "9b32bae878ef",
+   "company": "IBM",
+   "group": "top",
+   "title": "Consultant Intern – SAP 2027",
+   "location": "Chicago, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128755",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "cb3ba7164e58",
+   "company": "IBM",
+   "group": "top",
+   "title": "Consultant Intern – SAP 2027",
+   "location": "COLUMBIA, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128775",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "58894a26a7f7",
+   "company": "IBM",
+   "group": "top",
+   "title": "Consultant Intern – SAP 2027",
+   "location": "Multiple Cities",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128767",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "d9fa1cdb0f94",
+   "company": "IBM",
+   "group": "top",
+   "title": "Compliance SW Developer Intern: Systems Assurance - Poughkeepsie, NY - 2027",
+   "location": "POUGHKEEPSIE, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=130759",
+   "posted": null,
+   "tags": [
+    "cyber"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "cbcbb93c6ac0",
+   "company": "IBM",
+   "group": "top",
+   "title": "Co-Op Package Consultant - SAP 2027",
+   "location": "University Park, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128900",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "ae9a5362dd2f",
+   "company": "IBM",
+   "group": "top",
+   "title": "Co-Op Data Engineer - Data Services 2027",
+   "location": "University Park, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128562",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "572f4c6519f0",
+   "company": "IBM",
+   "group": "top",
+   "title": "Business Transformation Consultant Intern 2027",
+   "location": "New York, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128746",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "349a77f571f2",
+   "company": "IBM",
+   "group": "top",
+   "title": "Back End Developer Intern 2027 - Poughkeepsie",
+   "location": "POUGHKEEPSIE, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=129781",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "37c61e685a07",
+   "company": "IBM",
+   "group": "top",
+   "title": "AI-Native Security Research Intern 2027",
+   "location": "Yorktown Heights, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=132704",
+   "posted": null,
+   "tags": [
+    "cyber",
+    "research",
+    "ai"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "681d67857a69",
+   "company": "IBM",
+   "group": "top",
+   "title": "AI Native Systems Research Scientist Intern 2027",
+   "location": "Yorktown Heights, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=132423",
+   "posted": null,
+   "tags": [
+    "research",
+    "ai"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "b09bae225d77",
+   "company": "IBM",
+   "group": "top",
+   "title": "AI Native Hardware & Software Codesign internship 2027",
+   "location": "Multiple Cities",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=132725",
+   "posted": null,
+   "tags": [
+    "research",
+    "ai"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "6adb3b37fbbd",
+   "company": "IBM",
+   "group": "top",
+   "title": "AI Foundations - Software Engineer - Research Internship 2027",
+   "location": "Multiple Cities",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=131307",
+   "posted": null,
+   "tags": [
+    "research",
+    "ai"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "539ed11c15f0",
+   "company": "IBM",
+   "group": "top",
+   "title": "AI Foundations - Research Scientist - Research Internship - 2027",
+   "location": "Multiple Cities",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=131827",
+   "posted": null,
+   "tags": [
+    "research",
+    "ai"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "3a3387f1d9b1",
+   "company": "IBM",
+   "group": "top",
+   "title": "2027 Risk Management & Controls Intern – Americas",
+   "location": "Armonk, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=130385",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "2f52410473d1",
+   "company": "IBM",
+   "group": "top",
+   "title": "2027 Intern — Visual Designer",
+   "location": "New York, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=131188",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "b0a6949b620d",
+   "company": "IBM",
+   "group": "top",
+   "title": "2027 Intern — Marketing Operations",
+   "location": "Austin, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=131929",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "b7e9a03ac32a",
+   "company": "IBM",
+   "group": "top",
+   "title": "2027 Intern — Marketing Analytics",
+   "location": "New York, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=131892",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "ad9dfe0de21c",
+   "company": "IBM",
+   "group": "top",
+   "title": "2027 Intern – Sports and Entertainment Partnership Intern",
+   "location": "Austin, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=132538",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "97f7dc262ab7",
+   "company": "IBM",
+   "group": "top",
+   "title": "2027 Intern – Motion Designer",
+   "location": "New York, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=131161",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "6eeba4ee35d1",
+   "company": "IBM",
+   "group": "top",
+   "title": "2027 Intern – Junior Communications & Brand Strategy Intern",
+   "location": "Austin, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=129754",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "99709bd4479b",
+   "company": "IBM",
+   "group": "top",
+   "title": "2027 Intern – Copywriter",
+   "location": "New York, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=131191",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "c821910bba9e",
+   "company": "IBM",
+   "group": "top",
+   "title": "2027 Intern – Communications & Brand Strategy Intern",
+   "location": "Austin, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=129741",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "74fe64e52ae4",
+   "company": "IBM",
+   "group": "top",
+   "title": "2027 Intern – Communications & Brand Strategy Intern",
+   "location": "New York, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=129759",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "632a82473b99",
+   "company": "IBM",
+   "group": "top",
+   "title": "2027 Intern Conversion - Canada",
+   "location": "Multiple Cities",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=127921",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "cb8c3bbe3fcf",
+   "company": "IBM",
+   "group": "top",
+   "title": "2027 Finance Summer Intern",
+   "location": "Armonk, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=129102",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "2e48c0f30283",
+   "company": "IBM",
+   "group": "top",
+   "title": "2027 FLDP Summer Intern",
+   "location": "Armonk, US",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=128929",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "9355132bcf8b",
+   "company": "IBM",
+   "group": "top",
+   "title": "2026 Intern Conversion - Canada",
+   "location": "Multiple Cities",
+   "url": "https://careers.ibm.com/careers/JobDetail?jobId=114600",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "ibm",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
    "id": "85b3fe91ade5",
    "company": "Hudson River Trading",
    "group": "bank",
@@ -6470,6 +8389,21 @@
     "research"
    ],
    "via": "greenhouse",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "4d47c02b6282",
+   "company": "HSBC",
+   "group": "bank",
+   "title": "Schools and apprenticeships",
+   "location": "",
+   "url": "https://www.hsbc.com/careers/students-and-graduates/schools-and-apprenticeships",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "page_scan",
    "first_seen": "2026-09-15",
    "last_seen": "2026-09-15"
   },
@@ -7634,6 +9568,21 @@
    "last_seen": "2026-09-15"
   },
   {
+   "id": "49279db01cac",
+   "company": "Google",
+   "group": "top",
+   "title": "Engineering Manager, Data Residency and Fast Compliance",
+   "location": "Sunnyvale, CA, USA",
+   "url": "https://www.google.com/about/careers/applications/jobs/results/90199846798926534-engineering-manager-data-residency-and-fast-compliance",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "google",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
    "id": "90c374bcb392",
    "company": "Google",
    "group": "top",
@@ -8459,12 +10408,12 @@
    "last_seen": "2026-09-15"
   },
   {
-   "id": "ac6454b48c6a",
+   "id": "a187a11aa23d",
    "company": "Databricks",
    "group": "top",
    "title": "Systems PhD - Software Engineer",
-   "location": "Mountain View, California; San Francisco, California",
-   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8482037002",
+   "location": "Bellevue, Washington; Seattle, Washington",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8482086002",
    "posted": "2026-08-18",
    "tags": [
     "research"
@@ -8474,12 +10423,12 @@
    "last_seen": "2026-09-15"
   },
   {
-   "id": "a187a11aa23d",
+   "id": "ac6454b48c6a",
    "company": "Databricks",
    "group": "top",
    "title": "Systems PhD - Software Engineer",
-   "location": "Bellevue, Washington; Seattle, Washington",
-   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8482086002",
+   "location": "Mountain View, California; San Francisco, California",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8482037002",
    "posted": "2026-08-18",
    "tags": [
     "research"
@@ -8595,28 +10544,13 @@
    "last_seen": "2026-09-15"
   },
   {
-   "id": "1fcb08a276df",
+   "id": "d49ee108cbb5",
    "company": "DRW",
    "group": "bank",
    "title": "Software Developer Intern",
-   "location": "London",
-   "url": "https://job-boards.greenhouse.io/drweng/jobs/7942281",
+   "location": "Amsterdam",
+   "url": "https://job-boards.greenhouse.io/drweng/jobs/8020364",
    "posted": "2026-09-12",
-   "tags": [
-    "other"
-   ],
-   "via": "greenhouse",
-   "first_seen": "2026-09-15",
-   "last_seen": "2026-09-15"
-  },
-  {
-   "id": "3fbdee55601a",
-   "company": "DRW",
-   "group": "bank",
-   "title": "Software Developer Intern",
-   "location": "Chicago",
-   "url": "https://job-boards.greenhouse.io/drweng/jobs/7992936",
-   "posted": "2026-08-19",
    "tags": [
     "other"
    ],
@@ -8640,13 +10574,28 @@
    "last_seen": "2026-09-15"
   },
   {
-   "id": "d49ee108cbb5",
+   "id": "1fcb08a276df",
    "company": "DRW",
    "group": "bank",
    "title": "Software Developer Intern",
-   "location": "Amsterdam",
-   "url": "https://job-boards.greenhouse.io/drweng/jobs/8020364",
+   "location": "London",
+   "url": "https://job-boards.greenhouse.io/drweng/jobs/7942281",
    "posted": "2026-09-12",
+   "tags": [
+    "other"
+   ],
+   "via": "greenhouse",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "3fbdee55601a",
+   "company": "DRW",
+   "group": "bank",
+   "title": "Software Developer Intern",
+   "location": "Chicago",
+   "url": "https://job-boards.greenhouse.io/drweng/jobs/7992936",
+   "posted": "2026-08-19",
    "tags": [
     "other"
    ],
@@ -8685,12 +10634,12 @@
    "last_seen": "2026-09-15"
   },
   {
-   "id": "3ef50f095941",
+   "id": "88c104bd7042",
    "company": "DRW",
    "group": "bank",
    "title": "Quantitative Research Intern",
-   "location": "Chicago, New York City",
-   "url": "https://job-boards.greenhouse.io/drweng/jobs/7818540",
+   "location": "London",
+   "url": "https://job-boards.greenhouse.io/drweng/jobs/7957756",
    "posted": "2026-08-19",
    "tags": [
     "research"
@@ -8700,12 +10649,12 @@
    "last_seen": "2026-09-15"
   },
   {
-   "id": "88c104bd7042",
+   "id": "3ef50f095941",
    "company": "DRW",
    "group": "bank",
    "title": "Quantitative Research Intern",
-   "location": "London",
-   "url": "https://job-boards.greenhouse.io/drweng/jobs/7957756",
+   "location": "Chicago, New York City",
+   "url": "https://job-boards.greenhouse.io/drweng/jobs/7818540",
    "posted": "2026-08-19",
    "tags": [
     "research"
@@ -8745,13 +10694,13 @@
    "last_seen": "2026-09-15"
   },
   {
-   "id": "a9ea4cf2382a",
+   "id": "1198f02285ba",
    "company": "DRW",
    "group": "bank",
    "title": "Leadership Rotation Network Intern",
-   "location": "Chicago, IL",
-   "url": "https://job-boards.greenhouse.io/drweng/jobs/7993195",
-   "posted": "2026-09-14",
+   "location": "London",
+   "url": "https://job-boards.greenhouse.io/drweng/jobs/7957735",
+   "posted": "2026-08-19",
    "tags": [
     "other"
    ],
@@ -8760,13 +10709,13 @@
    "last_seen": "2026-09-15"
   },
   {
-   "id": "1198f02285ba",
+   "id": "a9ea4cf2382a",
    "company": "DRW",
    "group": "bank",
    "title": "Leadership Rotation Network Intern",
-   "location": "London",
-   "url": "https://job-boards.greenhouse.io/drweng/jobs/7957735",
-   "posted": "2026-08-19",
+   "location": "Chicago, IL",
+   "url": "https://job-boards.greenhouse.io/drweng/jobs/7993195",
+   "posted": "2026-09-14",
    "tags": [
     "other"
    ],
@@ -9877,6 +11826,246 @@
    "title": "2025 Markets Internship Colombia",
    "location": "Bogota  Colombia",
    "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/job/Bogota--Colombia/XMLNAME-2025-Markets-Internship-Colombia_25836348",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "workday",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "67ba295e5a7b",
+   "company": "Cisco",
+   "group": "top",
+   "title": "Wireless Software Engineer_ Intern",
+   "location": "Ecublens, Switzerland",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Ecublens-Switzerland/Wireless-Software-Engineer--Intern_2025061",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "workday",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "397ef0bda2c8",
+   "company": "Cisco",
+   "group": "top",
+   "title": "Software Engineer Summer Internship - Lysaker, Norway",
+   "location": "Lysaker, Norway",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Lysaker-Norway/Software-Engineer-Summer-Internship---Lysaker--Norway_2024366",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "workday",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "6d46aece0c89",
+   "company": "Cisco",
+   "group": "top",
+   "title": "Software Engineer Intern",
+   "location": "Galway, Ireland",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Galway-Ireland/Software-Engineer-Intern_2024810",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "workday",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "dfd8e9f0a8b6",
+   "company": "Cisco",
+   "group": "top",
+   "title": "Software Engineer Data & AI I (Intern) - United States",
+   "location": "3 Locations",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/San-Jose-California-US/Software-Engineer-Data---AI-I--Intern----United-States_2024510",
+   "posted": null,
+   "tags": [
+    "ai"
+   ],
+   "via": "workday",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "f15eb2e78bc2",
+   "company": "Cisco",
+   "group": "top",
+   "title": "Software Engineer - Intern",
+   "location": "Harpenden, United Kingdom",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Harpenden-United-Kingdom/Software-Engineer---Intern_2023625",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "workday",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "f7ff19d8583c",
+   "company": "Cisco",
+   "group": "top",
+   "title": "Software Consulting Engineer I (Intern) United States",
+   "location": "USA-RESEARCH TRIANGLE PARK",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/USA-RESEARCH-TRIANGLE-PARK/Software-Consulting-Engineer-I--Intern--United-States_2025180",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "workday",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "abb306ef1031",
+   "company": "Cisco",
+   "group": "top",
+   "title": "Security Consulting Engineer I (Intern) - United States",
+   "location": "RTP, North Carolina, US",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/RTP-North-Carolina-US/Security-Consulting-Engineer-I--Intern----United-States_2024817",
+   "posted": null,
+   "tags": [
+    "cyber"
+   ],
+   "via": "workday",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "8fa9223f580a",
+   "company": "Cisco",
+   "group": "top",
+   "title": "Sales Legal Intern",
+   "location": "Madrid, Spain",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Madrid-Spain/Sales-Legal-Intern_2024774",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "workday",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "323e5c6103c7",
+   "company": "Cisco",
+   "group": "top",
+   "title": "Sales Development Representative Intern, Splunk - Singapore",
+   "location": "Singapore, Singapore",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Singapore-Singapore/Sales-Development-Representative-Intern--Splunk---Singapore_2025760",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "workday",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "516d2058da21",
+   "company": "Cisco",
+   "group": "top",
+   "title": "Legal Summer Intern Rising 2L  (Intern) - United States",
+   "location": "5 Locations",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/RTP-North-Carolina-US/Legal-Summer-Intern-Rising-2L---Intern----United-States_2025447",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "workday",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "c6110af48a7f",
+   "company": "Cisco",
+   "group": "top",
+   "title": "Legal Rising 3L JD (Intern) - United States",
+   "location": "5 Locations",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/RTP-North-Carolina-US/Legal-Rising-3L-JD--Intern----United-States_2025449",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "workday",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "6d84dc05c43c",
+   "company": "Cisco",
+   "group": "top",
+   "title": "Legal Intern France",
+   "location": "Paris, France",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/Paris-France/Legal-Intern-France_2025684",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "workday",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "e5e71f897768",
+   "company": "Cisco",
+   "group": "top",
+   "title": "Internet Measurement Research Intern - BGP Research Team",
+   "location": "London, United Kingdom",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/London-United-Kingdom/Internet-Measurement-Research-Intern---BGP-Research-Team_2023762",
+   "posted": null,
+   "tags": [
+    "research"
+   ],
+   "via": "workday",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "14dab1f49e2e",
+   "company": "Cisco",
+   "group": "top",
+   "title": "Hardware Engineer PhD (Intern) - United States",
+   "location": "2 Locations",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/San-Jose-California-US/Hardware-Engineer-PhD--Intern----United-States_2024991",
+   "posted": null,
+   "tags": [
+    "research"
+   ],
+   "via": "workday",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "61e766118610",
+   "company": "Cisco",
+   "group": "top",
+   "title": "Hardware Engineer I (Intern) - United States",
+   "location": "2 Locations",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/San-Jose-California-US/Hardware-Engineer-I--Intern----United-States_2024756",
+   "posted": null,
+   "tags": [
+    "other"
+   ],
+   "via": "workday",
+   "first_seen": "2026-09-15",
+   "last_seen": "2026-09-15"
+  },
+  {
+   "id": "206f58152643",
+   "company": "Cisco",
+   "group": "top",
+   "title": "Consulting Engineer I (Intern) - United States",
+   "location": "3 Locations",
+   "url": "https://cisco.wd5.myworkdayjobs.com/en-US/Cisco_Careers/job/RTP-North-Carolina-US/Consulting-Engineer-I--Intern----United-States_2024816",
    "posted": null,
    "tags": [
     "other"
