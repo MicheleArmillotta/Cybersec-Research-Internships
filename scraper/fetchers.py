@@ -510,10 +510,8 @@ def ibm(cfg):
         bodies = [
             {"appId": "careers", "scopes": ["careers2"],
              "query": {"bool": {"must": [{"multi_match": {"query": q, "fields": ["title", "description"]}}]}},
-             "size": 100, "from": 0, "sort": [{"dateModified": "desc"}],
+             "size": 100, "from": 0,
              "_source": ["title", "url", "field_keyword_08", "field_keyword_18", "field_keyword_19", "field_keyword_17", "field_keyword_05"]},
-            {"appId": "careers", "scopes": ["careers"], "query": {"bool": {"must": [{"query_string": {"query": q}}]}},
-             "size": 100, "from": 0},
         ]
         for body in bodies:
             try:
@@ -531,9 +529,10 @@ def ibm(cfg):
                 url = src.get("url") or ""
                 if not url:
                     continue
-                loc = src.get("field_keyword_05") or ""
+                loc = src.get("field_keyword_19") or src.get("field_keyword_05") or ""
                 loc = ", ".join(loc) if isinstance(loc, list) else str(loc)
-                found[url] = _post_item(src.get("title", ""), url, loc, None, str(src.get("field_keyword_08", "")))
+                extra = " ".join(str(src.get(k, "")) for k in ("field_keyword_08", "field_keyword_18"))
+                found[url] = _post_item(src.get("title", ""), url, loc, None, extra)
             if hits:
                 break
     if not found:
@@ -586,6 +585,77 @@ def page_scan(cfg):
     return list(found.values()), note
 
 
+def _balanced_json(text, start):
+    depth = 0
+    for k in range(start, len(text)):
+        ch = text[k]
+        if ch == "{":
+            depth += 1
+        elif ch == "}":
+            depth -= 1
+            if depth == 0:
+                return text[start:k + 1]
+    return None
+
+
+def phenom(cfg):
+    """Phenom People career sites embed the first page of results as `phApp.ddo = {...}`.
+    cfg['url']: search-results URL including ?keywords=..."""
+    found = {}
+    import json as _json
+    for base in _aslist(cfg["url"]):
+        for page in range(0, 12):
+            url = f"{base}&from={page * 10}&s=1" if page else base
+            html = _get(url, headers={"Accept": "text/html"}).text
+            i = html.find("phApp.ddo = ")
+            if i < 0:
+                if page == 0:
+                    raise SourceError("phApp.ddo not found")
+                break
+            blob = _balanced_json(html, i + len("phApp.ddo = "))
+            try:
+                d = _json.loads(blob)
+            except Exception as e:  # noqa: BLE001
+                raise SourceError(f"ddo parse error: {e}")
+            data = (d.get("eagerLoadRefineSearch") or {}).get("data") or {}
+            jobs = data.get("jobs") or []
+            n_before = len(found)
+            site_root = re.match(r"(https?://[^/]+(?:/[^/?]+)*?)/search-results", base)
+            root = site_root.group(1) if site_root else base.split("/search-results")[0]
+            for j in jobs:
+                u = j.get("jobUrl") or f"{root}/job/{j.get('jobSeqNo')}"
+                found[u] = _post_item(j.get("title"), u, j.get("cityStateCountry") or j.get("city", ""),
+                                      (j.get("postedDate") or "")[:10],
+                                      " ".join(str(j.get(k, "")) for k in ("category", "subCategory")))
+            if len(found) == n_before or len(jobs) < 10:
+                break
+    return list(found.values()), ""
+
+
+def pinpoint(cfg):
+    """Pinpoint (pinpointhq.com) boards expose /postings.json; fall back to scanning the HTML listing."""
+    host = cfg["host"]
+    found = {}
+    try:
+        data = _get(f"https://{host}/postings.json", headers={"Accept": "application/json"}).json()
+        items = data.get("data") if isinstance(data, dict) else data
+        for j in items or []:
+            a = j.get("attributes", j) if isinstance(j, dict) else {}
+            url = a.get("url") or a.get("posting_url") or (f"https://{host}/en/postings/{j.get('id')}" if j.get("id") else None)
+            title = a.get("title")
+            if url and title:
+                loc = a.get("location") or a.get("locations") or ""
+                if isinstance(loc, (list, dict)):
+                    loc = ", ".join(str(x.get("name", x) if isinstance(x, dict) else x) for x in (loc if isinstance(loc, list) else [loc]))
+                found[url] = _post_item(title, url, str(loc), None, str(a.get("department", "")))
+    except Exception as e:  # noqa: BLE001
+        log.info("pinpoint json failed (%s), scanning html", e)
+    if not found:
+        jobs, note = page_scan({"url": [f"https://{host}/", f"https://{host}/en/postings"]})
+        return jobs, "html " + note
+    return list(found.values()), "json"
+
+
 def ats_any(cfg):
     """cfg['candidates']: list of {"type": "greenhouse"|"lever"|"ashby"|"workable", "slug": "..."}."""
     errors = []
@@ -623,4 +693,6 @@ FETCHERS = {
     "ibm": ibm,
     "page_scan": page_scan,
     "ats_any": ats_any,
+    "phenom": phenom,
+    "pinpoint": pinpoint,
 }
