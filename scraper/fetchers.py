@@ -173,7 +173,21 @@ def workday(cfg):
                 if offset >= total or not posts:
                     break
         return list(found.values())
-    site, jobs = _first_ok(_aslist(cfg["site"]), one)
+    candidates = list(_aslist(cfg["site"]))
+    # auto-discover the site name from the tenant root redirect (e.g. https://host/ -> /en-US/<site>)
+    try:
+        r = _session.get(f"https://{host}/", timeout=TIMEOUT, allow_redirects=True)
+        m = re.search(r"myworkdayjobs\.com/(?:[a-z]{2}-[A-Z]{2}/)?([^/?#]+)", r.url)
+        if m and m.group(1) not in candidates and m.group(1) != "wday":
+            candidates.append(m.group(1))
+        for m in re.finditer(r'href="/(?:[a-z]{2}-[A-Z]{2}/)?([A-Za-z0-9_\-]+)/?"', r.text[:20000]):
+            if m.group(1) not in candidates and m.group(1).lower() not in ("wday", "login", "en-us"):
+                candidates.append(m.group(1))
+                if len(candidates) > 8:
+                    break
+    except Exception:  # noqa: BLE001
+        pass
+    site, jobs = _first_ok(candidates, one)
     return jobs, f"site={site}"
 
 
@@ -279,8 +293,21 @@ def microsoft(cfg):
     for q in queries:
         pg = 1
         for _ in range(25):
-            data = _get("https://gcsservices.careers.microsoft.com/search/api/v1/search"
-                        f"?q={quote(q)}&l=en_us&pg={pg}&pgSz=20&o=Recent&flt=true").json()
+            path = f"/search/api/v1/search?q={quote(q)}&l=en_us&pg={pg}&pgSz=20&o=Recent&flt=true"
+            data, last = None, None
+            for host, verify in (("gcsservices.careers.microsoft.com", True), ("apijobs.careers.microsoft.com", True),
+                                 ("gcsservices.careers.microsoft.com", False)):
+                try:
+                    r = _session.get(f"https://{host}{path}", timeout=TIMEOUT, verify=verify,
+                                     headers={"Origin": "https://jobs.careers.microsoft.com",
+                                              "Referer": "https://jobs.careers.microsoft.com/"})
+                    r.raise_for_status()
+                    data = r.json()
+                    break
+                except Exception as e:  # noqa: BLE001
+                    last = e
+            if data is None:
+                raise SourceError(f"all hosts failed: {type(last).__name__}: {str(last)[:150]}")
             res = (data.get("operationResult") or {}).get("result") or {}
             jobs = res.get("jobs")
             if jobs is None:
@@ -301,32 +328,33 @@ def microsoft(cfg):
 
 def apple(cfg):
     queries = cfg.get("queries") or ["intern"]
-    # warm up cookies
-    try:
-        _session.get("https://jobs.apple.com/en-us/search", timeout=TIMEOUT)
-    except Exception:  # noqa: BLE001
-        pass
+    r = _session.get("https://jobs.apple.com/api/csrfToken", timeout=TIMEOUT,
+                     headers={"Referer": "https://jobs.apple.com/en-us/search"})
+    csrf = r.headers.get("X-Apple-CSRF-Token") or r.headers.get("x-apple-csrf-token") or ""
     found = {}
     for q in queries:
         page = 1
         for _ in range(10):
             body = {"query": q, "filters": {}, "page": page, "locale": "en-us", "sort": "newest",
                     "format": {"longDate": "MMMM D, YYYY", "mediumDate": "MMM D, YYYY"}}
-            r = _session.post("https://jobs.apple.com/api/role/search", json=body, timeout=TIMEOUT,
-                              headers={"Content-Type": "application/json",
+            r = _session.post("https://jobs.apple.com/api/v1/search", json=body, timeout=TIMEOUT,
+                              headers={"Content-Type": "application/json", "X-Apple-CSRF-Token": csrf,
                                        "Referer": "https://jobs.apple.com/en-us/search"})
             r.raise_for_status()
             data = r.json()
-            results = data.get("searchResults")
+            res = data.get("res") if isinstance(data.get("res"), dict) else data
+            results = res.get("searchResults")
             if results is None:
-                raise SourceError("no searchResults key")
+                raise SourceError(f"no searchResults key (keys={list(data)[:6]})")
             for j in results:
-                pid = j.get("positionId")
+                pid = j.get("positionId") or j.get("id")
                 url = f"https://jobs.apple.com/en-us/details/{pid}"
                 loc = ", ".join(l.get("name", "") for l in (j.get("locations") or [])[:2])
-                found[url] = _post_item(j.get("postingTitle"), url, loc, (j.get("postingDate") or "")[:10],
-                                        str(j.get("team", {}).get("teamName", "")) if isinstance(j.get("team"), dict) else "")
-            total = data.get("totalRecords", 0)
+                team = j.get("team") or {}
+                found[url] = _post_item(j.get("postingTitle") or j.get("title"), url, loc,
+                                        (j.get("postingDate") or "")[:10],
+                                        team.get("teamName", "") if isinstance(team, dict) else "")
+            total = res.get("totalRecords", 0)
             page += 1
             if (page - 1) * 20 >= total or not results:
                 break
@@ -356,10 +384,15 @@ def google(cfg):
                     h = a.find_parent().find(["h2", "h3"]) if a.find_parent() else None
                     title = h.get_text(" ", strip=True) if h else m.group(2).replace("-", " ").title()
                 loc = ""
-                card = a.find_parent("li") or a.find_parent("div")
+                card = a.find_parent("li")
                 if card:
-                    ltxt = card.find(string=re.compile(r",\s*[A-Z]{2}|Remote|USA|United", re.I))
-                    loc = str(ltxt).strip() if ltxt else ""
+                    for t in card.stripped_strings:
+                        if t == title or len(t) > 80:
+                            continue
+                        if re.search(r"\b(USA|UK|Ireland|Switzerland|Germany|France|India|Canada|Poland|Japan|"
+                                     r"Israel|Australia|Brazil|Singapore|Taiwan|Remote)\b|, [A-Z]{2}\b", t):
+                            loc = t
+                            break
                 found[full] = _post_item(title, full, loc)
             if len(found) == n_before:
                 break
@@ -372,7 +405,18 @@ def meta(cfg):
     queries = cfg.get("queries") or ["intern"]
     found = {}
     for q in queries:
-        html = _get(f"https://www.metacareers.com/jobs?q={quote(q)}", headers={"Accept": "text/html"}).text
+        html = ""
+        for u in (f"https://www.metacareers.com/jobs/?q={quote(q)}", f"https://www.metacareers.com/jobs?q={quote(q)}",
+                  "https://www.metacareers.com/jobs/"):
+            try:
+                html = _get(u, headers={"Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                                        "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Dest": "document",
+                                        "Upgrade-Insecure-Requests": "1"}).text
+                break
+            except Exception as e:  # noqa: BLE001
+                last = e
+        if not html:
+            raise SourceError(f"all urls failed: {last}")
         # Meta embeds job data in script tags; grab id+title pairs defensively.
         for m in re.finditer(r'"id":"(\d{6,})"[^{}]{0,400}?"title":"([^"]+)"', html):
             jid, title = m.group(1), m.group(2)
@@ -401,26 +445,29 @@ def cisco(cfg):
         for _ in range(15):
             url = f"https://jobs.cisco.com/jobs/SearchJobs/{quote(q)}?listFilterMode=1&projectOffset={offset}"
             soup = BeautifulSoup(_get(url, headers={"Accept": "text/html"}).text, "lxml")
-            rows = soup.select("table tr")
             n_before = len(found)
-            for tr in rows:
-                a = tr.select_one("a[href*='ProjectDetail']")
-                if not a:
+            for a in soup.select("a[href*='ProjectDetail']"):
+                title = a.get_text(" ", strip=True)
+                if not title:
                     continue
-                tds = tr.find_all("td")
-                loc = tds[1].get_text(" ", strip=True) if len(tds) > 1 else ""
+                loc = ""
+                tr = a.find_parent("tr")
+                if tr:
+                    tds = tr.find_all("td")
+                    loc = tds[1].get_text(" ", strip=True) if len(tds) > 1 else ""
                 href = urljoin("https://jobs.cisco.com", a.get("href"))
-                found[href] = _post_item(a.get_text(" ", strip=True), href, loc)
+                found.setdefault(href, _post_item(title, href, loc))
             if len(found) == n_before:
                 break
             offset += 25
     if not found:
-        raise SourceError("no rows parsed")
+        raise SourceError(f"no ProjectDetail links parsed (html {len(soup.get_text())} chars)")
     return list(found.values()), ""
 
 
 def tesla(cfg):
-    data = _get("https://www.tesla.com/cua-api/apps/careers/state").json()
+    data = _get("https://www.tesla.com/cua-api/apps/careers/state",
+                headers={"Accept": "application/json", "Referer": "https://www.tesla.com/careers/search/"}).json()
     listings = data.get("listings") or []
     lookup = data.get("lookup") or {}
     locs = lookup.get("locations") or {}
@@ -458,24 +505,39 @@ def _lk(table, key):
 def ibm(cfg):
     queries = cfg.get("queries") or ["intern"]
     found = {}
+    errors = []
     for q in queries:
-        body = {"appId": "careers", "scopes": ["careers"], "query": q, "size": 100, "from": 0,
-                "sort": [{"dateModified": "desc"}]}
-        r = _session.post("https://www-api.ibm.com/search/api/v2", json=body, timeout=TIMEOUT,
-                          headers={"Content-Type": "application/json"})
-        r.raise_for_status()
-        data = r.json()
-        hits = (data.get("hits") or {}).get("hits") or data.get("results") or []
-        for h in hits:
-            src = h.get("_source", h)
-            url = src.get("url") or src.get("field_url", "")
-            if not url:
+        bodies = [
+            {"appId": "careers", "scopes": ["careers2"],
+             "query": {"bool": {"must": [{"multi_match": {"query": q, "fields": ["title", "description"]}}]}},
+             "size": 100, "from": 0, "sort": [{"dateModified": "desc"}],
+             "_source": ["title", "url", "field_keyword_08", "field_keyword_18", "field_keyword_19", "field_keyword_17", "field_keyword_05"]},
+            {"appId": "careers", "scopes": ["careers"], "query": {"bool": {"must": [{"query_string": {"query": q}}]}},
+             "size": 100, "from": 0},
+        ]
+        for body in bodies:
+            try:
+                r = _session.post("https://www-api.ibm.com/search/api/v2", json=body, timeout=TIMEOUT,
+                                  headers={"Content-Type": "application/json", "Origin": "https://www.ibm.com",
+                                           "Referer": "https://www.ibm.com/careers/search"})
+                r.raise_for_status()
+                data = r.json()
+            except Exception as e:  # noqa: BLE001
+                errors.append(f"{type(e).__name__}: {str(e)[:80]}")
                 continue
-            found[url] = _post_item(src.get("title", ""), url,
-                                    ", ".join(src.get("field_keyword_05", []) or []) if isinstance(src.get("field_keyword_05"), list) else str(src.get("field_keyword_05", "")),
-                                    None, str(src.get("field_keyword_08", "")))
+            hits = (data.get("hits") or {}).get("hits") or []
+            for h in hits:
+                src = h.get("_source", h)
+                url = src.get("url") or ""
+                if not url:
+                    continue
+                loc = src.get("field_keyword_05") or ""
+                loc = ", ".join(loc) if isinstance(loc, list) else str(loc)
+                found[url] = _post_item(src.get("title", ""), url, loc, None, str(src.get("field_keyword_08", "")))
+            if hits:
+                break
     if not found:
-        raise SourceError("no hits")
+        raise SourceError("no hits; " + "; ".join(errors)[:200])
     return list(found.values()), ""
 
 
@@ -491,10 +553,13 @@ def page_scan(cfg):
     pages = _aslist(cfg["url"])
     found = {}
     n_pages_ok = 0
+    errors = []
     for page in pages:
         try:
-            html = _get(page, headers={"Accept": "text/html"}).text
+            html = _get(page, headers={"Accept": "text/html,application/xhtml+xml,*/*;q=0.8",
+                                       "Sec-Fetch-Mode": "navigate", "Sec-Fetch-Dest": "document"}).text
         except Exception as e:  # noqa: BLE001
+            errors.append(f"{page}: {type(e).__name__} {str(e)[:60]}")
             log.warning("page_scan %s failed: %s", page, e)
             continue
         n_pages_ok += 1
@@ -516,11 +581,24 @@ def page_scan(cfg):
                 found.setdefault(page + "#" + re.sub(r"\W+", "-", text.lower())[:60],
                                  _post_item(text, page, "", None, "page-scan"))
     if n_pages_ok == 0:
-        raise SourceError("all pages failed")
-    return list(found.values()), f"pages_ok={n_pages_ok}/{len(pages)}"
+        raise SourceError("all pages failed: " + " | ".join(errors))
+    note = f"pages_ok={n_pages_ok}/{len(pages)}" + (" | " + " | ".join(errors) if errors else "")
+    return list(found.values()), note
 
 
-# ---------------------------------------------------------------------------
+def ats_any(cfg):
+    """cfg['candidates']: list of {"type": "greenhouse"|"lever"|"ashby"|"workable", "slug": "..."}."""
+    errors = []
+    for c in cfg["candidates"]:
+        try:
+            jobs, note = FETCHERS[c["type"]]({**cfg, **c})
+            if jobs:
+                return jobs, f"{c['type']} {note}"
+            errors.append(f"{c['type']}:{c['slug']} empty")
+        except Exception as e:  # noqa: BLE001
+            errors.append(f"{c['type']}:{c['slug']} {type(e).__name__}")
+    raise SourceError("; ".join(errors))
+
 
 def _aslist(x):
     return x if isinstance(x, list) else [x]
@@ -544,4 +622,5 @@ FETCHERS = {
     "tesla": tesla,
     "ibm": ibm,
     "page_scan": page_scan,
+    "ats_any": ats_any,
 }

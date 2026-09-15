@@ -32,11 +32,11 @@ CYBER_PATTERNS = [
     r"secur", r"cyber", r"vulnerab", r"pentest", r"penetration", r"red team", r"blue team",
     r"purple team", r"offensive", r"malware", r"threat", r"fuzz", r"exploit", r"reverse",
     r"appsec", r"app sec", r"cryptograph", r"\bcrypto\b", r"privacy", r"trust (&|and) safety",
-    r"\bsoc\b", r"detection", r"incident", r"forensic", r"infosec", r"hack", r"adversar",
+    r"\bsoc\b", r"detection", r"incident", r"forensic", r"infosec", r"hacker", r"hacking", r"adversar",
     r"assurance", r"\bsiem\b", r"\biam\b", r"identity", r"zero trust", r"firmware", r"binary",
     r"program analysis", r"static analysis", r"dynamic analysis", r"\bctf\b", r"\bgrc\b",
-    r"abuse", r"integrity", r"\bsafety\b", r"risk", r"fraud", r"\bsigint\b", r"intrusion",
-    r"defen[cs]e", r"\bsre\b", r"resilien", r"attack", r"protect", r"compliance",
+    r"abuse", r"integrity", r"\bsafety\b", r"\bsigint\b", r"intrusion",
+    r"defen[cs]e", r"resilien", r"attack", r"protect",
 ]
 
 RESEARCH_PATTERNS = [
