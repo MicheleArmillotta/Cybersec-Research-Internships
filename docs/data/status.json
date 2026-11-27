@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-26T16:03:26+00:00",
+ "generated_at": "2026-11-27T15:51:56+00:00",
  "sources": [
   {
    "company": "Capital One",
@@ -10,7 +10,7 @@
    "kept": 0,
    "note": "",
    "error": "SourceError: Capital_One: HTTPError: 429 Client Error: Too Many Requests for url: https://capitalone.wd12.myworkdayjobs.com/wday/cxs/capitalone/Capital_One/j; External: HTTPError: 429 Client Error: Too Many Requests for url: https://capitalone.wd12.myworkdayjobs.com/wday/cxs/capitalone/External/jobs",
-   "seconds": 0.2
+   "seconds": 1.0
   },
   {
    "company": "Cisco",
@@ -21,7 +21,7 @@
    "kept": 0,
    "note": "",
    "error": "SourceError: Cisco_Careers: HTTPError: 429 Client Error: Too Many Requests for url: https://cisco.wd5.myworkdayjobs.com/wday/cxs/cisco/Cisco_Careers/jobs",
-   "seconds": 0.1
+   "seconds": 3.1
   },
   {
    "company": "Citi",
@@ -31,8 +31,8 @@
    "raw": 0,
    "kept": 0,
    "note": "",
-   "error": "SourceError: 2: HTTPError: 429 Client Error: Too Many Requests for url: https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/jobs; Citi: SourceError: 404; External: HTTPError: 429 Client Error: Too Many Requests for url: https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/External/jobs",
-   "seconds": 0.7
+   "error": "SourceError: 2: HTTPError: 429 Client Error: Too Many Requests for url: https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/2/jobs; Citi: HTTPError: 429 Client Error: Too Many Requests for url: https://citi.wd5.myworkdayjobs.com/wday/cxs/citi/Citi/jobs; External: HTTPError: 429 Client Error: Too Many Requests for u",
+   "seconds": 0.2
   },
   {
    "company": "CrowdStrike",
@@ -43,7 +43,7 @@
    "kept": 0,
    "note": "",
    "error": "SourceError: crowdstrikecareers: HTTPError: 429 Client Error: Too Many Requests for url: https://crowdstrike.wd5.myworkdayjobs.com/wday/cxs/crowdstrike/crowdstrikec",
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "company": "FuzzingLabs",
@@ -54,7 +54,7 @@
    "kept": 0,
    "note": "",
    "error": "SourceError: all pages failed: https://fuzzinglabs.com/careers/: HTTPError 404 Client Error: Not Found for url: https://fuzzinglabs.com | https://fuzzinglabs.com/jobs/: HTTPError 404 Client Error: Not Found for url: https://fuzzinglabs.com",
-   "seconds": 2.6
+   "seconds": 3.1
   },
   {
    "company": "Immunefi",
@@ -65,7 +65,7 @@
    "kept": 0,
    "note": "",
    "error": "SourceError: immunefi: HTTPError: 404 Client Error: Not Found for url: https://boards-api.greenhouse.io/v1/boards/immunefi/jobs?content=false",
-   "seconds": 0.1
+   "seconds": 0.0
   },
   {
    "company": "Intel",
@@ -76,7 +76,7 @@
    "kept": 0,
    "note": "",
    "error": "SourceError: External: HTTPError: 429 Client Error: Too Many Requests for url: https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/jobs",
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "company": "Mistral AI",
@@ -87,7 +87,7 @@
    "kept": 0,
    "note": "",
    "error": "SourceError: mistral: HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/mistral?mode=json",
-   "seconds": 0.4
+   "seconds": 0.3
   },
   {
    "company": "NVIDIA",
@@ -98,7 +98,7 @@
    "kept": 0,
    "note": "",
    "error": "SourceError: NVIDIAExternalCareerSite: HTTPError: 429 Client Error: Too Many Requests for url: https://nvidia.wd5.myworkdayjobs.com/wday/cxs/nvidia/NVIDIAExternalCareerSi",
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "company": "Palo Alto Networks",
@@ -120,25 +120,25 @@
    "kept": 0,
    "note": "",
    "error": "SourceError: External_Career_Site: HTTPError: 429 Client Error: Too Many Requests for url: https://salesforce.wd12.myworkdayjobs.com/wday/cxs/salesforce/External_Care",
-   "seconds": 1.5
+   "seconds": 0.7
   },
   {
    "company": "1Password",
    "group": "top",
    "type": "ats_any",
    "ok": true,
-   "raw": 78,
+   "raw": 77,
    "kept": 0,
    "note": "ashby slug=1password",
    "error": "",
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "company": "Airbnb",
    "group": "top",
    "type": "greenhouse",
    "ok": true,
-   "raw": 199,
+   "raw": 201,
    "kept": 8,
    "note": "slug=airbnb",
    "error": "",
@@ -149,8 +149,8 @@
    "group": "top",
    "type": "amazon",
    "ok": true,
-   "raw": 1130,
-   "kept": 479,
+   "raw": 1127,
+   "kept": 481,
    "note": "",
    "error": "",
    "seconds": 7.7
@@ -171,11 +171,11 @@
    "group": "top",
    "type": "apple",
    "ok": true,
-   "raw": 351,
-   "kept": 26,
+   "raw": 353,
+   "kept": 25,
    "note": "",
    "error": "",
-   "seconds": 4.5
+   "seconds": 4.8
   },
   {
    "company": "Atredis Partners",
@@ -186,18 +186,18 @@
    "kept": 0,
    "note": "pages_ok=2/2",
    "error": "",
-   "seconds": 0.3
+   "seconds": 0.2
   },
   {
    "company": "Barclays",
    "group": "bank",
    "type": "page_scan",
    "ok": true,
-   "raw": 19,
-   "kept": 19,
+   "raw": 18,
+   "kept": 18,
    "note": "pages_ok=1/1",
    "error": "",
-   "seconds": 1.1
+   "seconds": 0.8
   },
   {
    "company": "Bishop Fox",
@@ -230,14 +230,14 @@
    "kept": 6,
    "note": "pages_ok=2/2",
    "error": "",
-   "seconds": 1.7
+   "seconds": 2.0
   },
   {
    "company": "Cloudflare",
    "group": "top",
    "type": "greenhouse",
    "ok": true,
-   "raw": 527,
+   "raw": 533,
    "kept": 7,
    "note": "slug=cloudflare",
    "error": "",
@@ -248,11 +248,11 @@
    "group": "top",
    "type": "greenhouse",
    "ok": true,
-   "raw": 257,
+   "raw": 256,
    "kept": 23,
    "note": "slug=coinbase",
    "error": "",
-   "seconds": 0.0
+   "seconds": 0.1
   },
   {
    "company": "Cyberhaven",
@@ -263,25 +263,25 @@
    "kept": 0,
    "note": "ashby slug=cyberhaven",
    "error": "",
-   "seconds": 0.0
+   "seconds": 0.1
   },
   {
    "company": "DRW",
    "group": "bank",
    "type": "greenhouse",
    "ok": true,
-   "raw": 149,
+   "raw": 148,
    "kept": 7,
    "note": "slug=drweng",
    "error": "",
-   "seconds": 0.0
+   "seconds": 0.1
   },
   {
    "company": "Databricks",
    "group": "top",
    "type": "greenhouse",
    "ok": true,
-   "raw": 880,
+   "raw": 888,
    "kept": 15,
    "note": "slug=databricks",
    "error": "",
@@ -292,11 +292,11 @@
    "group": "top",
    "type": "greenhouse",
    "ok": true,
-   "raw": 391,
+   "raw": 390,
    "kept": 9,
    "note": "slug=datadog",
    "error": "",
-   "seconds": 0.0
+   "seconds": 0.1
   },
   {
    "company": "Deutsche Bank",
@@ -307,7 +307,7 @@
    "kept": 4,
    "note": "pages_ok=1/1",
    "error": "",
-   "seconds": 0.5
+   "seconds": 0.4
   },
   {
    "company": "Discord",
@@ -351,7 +351,7 @@
    "kept": 14,
    "note": "pages_ok=2/2",
    "error": "",
-   "seconds": 3.1
+   "seconds": 2.9
   },
   {
    "company": "ERNW",
@@ -362,7 +362,7 @@
    "kept": 0,
    "note": "pages_ok=1/3 | https://ernw.de/en/company/jobs.html: HTTPError 404 Client Error: Not Found for url: https://ernw.de/en/comp | https://www.ernw.de/en/career.html: HTTPError 404 Client Error: Not Found for url: https://ernw.de/en/care",
    "error": "",
-   "seconds": 1.2
+   "seconds": 1.6
   },
   {
    "company": "ESET",
@@ -373,7 +373,7 @@
    "kept": 0,
    "note": "pages_ok=1/1",
    "error": "",
-   "seconds": 0.2
+   "seconds": 0.5
   },
   {
    "company": "ETH Zurich (D-INFK)",
@@ -384,18 +384,18 @@
    "kept": 3,
    "note": "pages_ok=1/1",
    "error": "",
-   "seconds": 0.4
+   "seconds": 0.6
   },
   {
    "company": "Elastic",
    "group": "top",
    "type": "greenhouse",
    "ok": true,
-   "raw": 375,
+   "raw": 369,
    "kept": 0,
    "note": "slug=elastic",
    "error": "",
-   "seconds": 0.0
+   "seconds": 0.1
   },
   {
    "company": "Figma",
@@ -417,7 +417,7 @@
    "kept": 0,
    "note": "pages_ok=1/1",
    "error": "",
-   "seconds": 0.2
+   "seconds": 0.1
   },
   {
    "company": "GRIMM",
@@ -428,7 +428,7 @@
    "kept": 1,
    "note": "pages_ok=1/1",
    "error": "",
-   "seconds": 0.4
+   "seconds": 0.3
   },
   {
    "company": "GitHub",
@@ -446,7 +446,7 @@
    "group": "top",
    "type": "greenhouse",
    "ok": true,
-   "raw": 242,
+   "raw": 243,
    "kept": 0,
    "note": "slug=gitlab",
    "error": "",
@@ -461,15 +461,15 @@
    "kept": 1,
    "note": "pages_ok=2/2",
    "error": "",
-   "seconds": 0.5
+   "seconds": 0.9
   },
   {
    "company": "Google",
    "group": "top",
    "type": "google",
    "ok": true,
-   "raw": 396,
-   "kept": 73,
+   "raw": 394,
+   "kept": 72,
    "note": "",
    "error": "",
    "seconds": 9.9
@@ -483,7 +483,7 @@
    "kept": 15,
    "note": "",
    "error": "",
-   "seconds": 1.9
+   "seconds": 1.5
   },
   {
    "company": "HSBC",
@@ -494,7 +494,7 @@
    "kept": 1,
    "note": "pages_ok=2/2",
    "error": "",
-   "seconds": 2.5
+   "seconds": 3.6
   },
   {
    "company": "HackerOne",
@@ -505,7 +505,7 @@
    "kept": 0,
    "note": "ashby slug=hackerone",
    "error": "",
-   "seconds": 0.6
+   "seconds": 0.3
   },
   {
    "company": "Hudson River Trading",
@@ -527,7 +527,7 @@
    "kept": 113,
    "note": "",
    "error": "",
-   "seconds": 0.6
+   "seconds": 1.2
   },
   {
    "company": "IBM Research",
@@ -538,14 +538,14 @@
    "kept": 10,
    "note": "pages_ok=2/2",
    "error": "",
-   "seconds": 1.1
+   "seconds": 2.7
   },
   {
    "company": "IMC Trading",
    "group": "bank",
    "type": "greenhouse",
    "ok": true,
-   "raw": 149,
+   "raw": 151,
    "kept": 23,
    "note": "slug=imc",
    "error": "",
@@ -560,7 +560,7 @@
    "kept": 0,
    "note": "pages_ok=1/2 | https://includesecurity.com/careers/: HTTPError 404 Client Error: Not Found for url: https://includesecurity",
    "error": "",
-   "seconds": 0.4
+   "seconds": 0.5
   },
   {
    "company": "Intesa Sanpaolo",
@@ -571,18 +571,18 @@
    "kept": 0,
    "note": "pages_ok=1/1",
    "error": "",
-   "seconds": 1.0
+   "seconds": 1.1
   },
   {
    "company": "JPMorgan Chase",
    "group": "bank",
    "type": "oracle_hcm",
    "ok": true,
-   "raw": 559,
+   "raw": 562,
    "kept": 48,
    "note": "",
    "error": "",
-   "seconds": 5.4
+   "seconds": 5.3
   },
   {
    "company": "Jane Street",
@@ -615,7 +615,7 @@
    "kept": 4,
    "note": "pages_ok=1/2 | https://www.mpi-sp.org/career: HTTPError 404 Client Error: Not Found for url: https://www.mpi-sp.org/",
    "error": "",
-   "seconds": 1.0
+   "seconds": 1.1
   },
   {
    "company": "Mandiant / Google Cloud Security",
@@ -637,7 +637,7 @@
    "kept": 2,
    "note": "pages_ok=1/1",
    "error": "",
-   "seconds": 1.6
+   "seconds": 1.4
   },
   {
    "company": "Microsoft Research",
@@ -648,7 +648,7 @@
    "kept": 6,
    "note": "pages_ok=1/2 | https://www.microsoft.com/en-us/research/academic-program/phd-internship/: HTTPError 404 Client Error: Not Found for url: https://www.microsoft.c",
    "error": "",
-   "seconds": 6.3
+   "seconds": 5.5
   },
   {
    "company": "Morgan Stanley",
@@ -666,7 +666,7 @@
    "group": "top",
    "type": "greenhouse",
    "ok": true,
-   "raw": 147,
+   "raw": 153,
    "kept": 0,
    "note": "slug=mozilla",
    "error": "",
@@ -677,11 +677,11 @@
    "group": "boutique",
    "type": "pinpoint",
    "ok": true,
-   "raw": 82,
+   "raw": 86,
    "kept": 0,
    "note": "json",
    "error": "",
-   "seconds": 1.2
+   "seconds": 1.4
   },
   {
    "company": "NCC Group (careers page)",
@@ -692,7 +692,7 @@
    "kept": 0,
    "note": "pages_ok=2/2",
    "error": "",
-   "seconds": 6.2
+   "seconds": 6.9
   },
   {
    "company": "NVISO",
@@ -703,7 +703,7 @@
    "kept": 5,
    "note": "pages_ok=3/3",
    "error": "",
-   "seconds": 0.6
+   "seconds": 0.4
   },
   {
    "company": "Netflix",
@@ -725,14 +725,14 @@
    "kept": 0,
    "note": "slug=okta",
    "error": "",
-   "seconds": 0.0
+   "seconds": 0.1
   },
   {
    "company": "OpenAI",
    "group": "top",
    "type": "ashby",
    "ok": true,
-   "raw": 876,
+   "raw": 875,
    "kept": 0,
    "note": "slug=openai",
    "error": "",
@@ -758,7 +758,7 @@
    "kept": 0,
    "note": "pages_ok=2/2",
    "error": "",
-   "seconds": 0.4
+   "seconds": 0.6
   },
   {
    "company": "Palantir",
@@ -769,7 +769,7 @@
    "kept": 49,
    "note": "slug=palantir",
    "error": "",
-   "seconds": 9.6
+   "seconds": 1.0
   },
   {
    "company": "Plaid",
@@ -780,7 +780,7 @@
    "kept": 0,
    "note": "ashby slug=plaid",
    "error": "",
-   "seconds": 0.1
+   "seconds": 0.3
   },
   {
    "company": "Praetorian",
@@ -798,7 +798,7 @@
    "group": "top",
    "type": "greenhouse",
    "ok": true,
-   "raw": 33,
+   "raw": 41,
    "kept": 0,
    "note": "slug=proton",
    "error": "",
@@ -813,7 +813,7 @@
    "kept": 0,
    "note": "pages_ok=1/3 | https://www.quarkslab.com/jobs/: HTTPError 404 Client Error: Not Found for url: https://www.quarkslab.c | https://www.quarkslab.com/join-us/: HTTPError 404 Client Error: Not Found for url: https://www.quarkslab.c",
    "error": "",
-   "seconds": 1.1
+   "seconds": 1.5
   },
   {
    "company": "Ramp",
@@ -835,7 +835,7 @@
    "kept": 1,
    "note": "pages_ok=2/2",
    "error": "",
-   "seconds": 0.9
+   "seconds": 0.8
   },
   {
    "company": "Reddit",
@@ -857,25 +857,25 @@
    "kept": 0,
    "note": "pages_ok=1/1",
    "error": "",
-   "seconds": 0.3
+   "seconds": 0.4
   },
   {
    "company": "Robinhood",
    "group": "top",
    "type": "greenhouse",
    "ok": true,
-   "raw": 163,
+   "raw": 161,
    "kept": 3,
    "note": "slug=robinhood",
    "error": "",
-   "seconds": 0.0
+   "seconds": 0.1
   },
   {
    "company": "Roblox",
    "group": "top",
    "type": "greenhouse",
    "ok": true,
-   "raw": 254,
+   "raw": 259,
    "kept": 6,
    "note": "slug=roblox",
    "error": "",
@@ -897,11 +897,11 @@
    "group": "top",
    "type": "greenhouse",
    "ok": true,
-   "raw": 300,
+   "raw": 292,
    "kept": 10,
    "note": "slug=samsara",
    "error": "",
-   "seconds": 0.0
+   "seconds": 0.1
   },
   {
    "company": "Semgrep",
@@ -912,14 +912,14 @@
    "kept": 1,
    "note": "slug=semgrep",
    "error": "",
-   "seconds": 0.0
+   "seconds": 0.1
   },
   {
    "company": "SentinelOne",
    "group": "boutique",
    "type": "greenhouse",
    "ok": true,
-   "raw": 249,
+   "raw": 250,
    "kept": 1,
    "note": "slug=sentinellabs",
    "error": "",
@@ -930,11 +930,11 @@
    "group": "top",
    "type": "phenom",
    "ok": true,
-   "raw": 121,
+   "raw": 122,
    "kept": 7,
    "note": "",
    "error": "",
-   "seconds": 6.3
+   "seconds": 18.8
   },
   {
    "company": "Snyk",
@@ -945,7 +945,7 @@
    "kept": 0,
    "note": "ashby slug=snyk",
    "error": "",
-   "seconds": 0.4
+   "seconds": 0.1
   },
   {
    "company": "SpaceX",
@@ -956,18 +956,18 @@
    "kept": 20,
    "note": "slug=spacex",
    "error": "",
-   "seconds": 0.1
+   "seconds": 0.2
   },
   {
    "company": "Stripe",
    "group": "top",
    "type": "greenhouse",
    "ok": true,
-   "raw": 769,
+   "raw": 765,
    "kept": 20,
    "note": "slug=stripe",
    "error": "",
-   "seconds": 0.0
+   "seconds": 0.1
   },
   {
    "company": "Synacktiv",
@@ -978,7 +978,7 @@
    "kept": 1,
    "note": "pages_ok=1/3 | https://www.synacktiv.com/en/offers: HTTPError 403 Client Error: Forbidden for url: https://www.synacktiv.c | https://www.synacktiv.com/offres: HTTPError 403 Client Error: Forbidden for url: https://www.synacktiv.c",
    "error": "",
-   "seconds": 0.9
+   "seconds": 1.0
   },
   {
    "company": "Tailscale",
@@ -989,7 +989,7 @@
    "kept": 0,
    "note": "slug=tailscale",
    "error": "",
-   "seconds": 0.1
+   "seconds": 0.0
   },
   {
    "company": "Tenable",
@@ -1022,14 +1022,14 @@
    "kept": 1,
    "note": "pages_ok=1/2 | https://jobs.trailofbits.com/: ConnectionError HTTPSConnectionPool(host='jobs.trailofbits.com', port=443): ",
    "error": "",
-   "seconds": 0.6
+   "seconds": 0.4
   },
   {
    "company": "Twilio",
    "group": "top",
    "type": "greenhouse",
    "ok": true,
-   "raw": 113,
+   "raw": 114,
    "kept": 0,
    "note": "slug=twilio",
    "error": "",
@@ -1044,7 +1044,7 @@
    "kept": 0,
    "note": "pages_ok=1/2 | https://www.ubs.com/global/en/careers/students-graduates.html: HTTPError 403 Client Error: Forbidden for url: https://www.ubs.com/glo",
    "error": "",
-   "seconds": 1.5
+   "seconds": 1.7
   },
   {
    "company": "Uber",
@@ -1055,7 +1055,7 @@
    "kept": 0,
    "note": "pages_ok=1/1",
    "error": "",
-   "seconds": 0.3
+   "seconds": 0.4
   },
   {
    "company": "UniCredit",
@@ -1066,7 +1066,7 @@
    "kept": 1,
    "note": "pages_ok=1/1",
    "error": "",
-   "seconds": 0.5
+   "seconds": 0.8
   },
   {
    "company": "Vercel",
@@ -1095,7 +1095,7 @@
    "group": "boutique",
    "type": "greenhouse",
    "ok": true,
-   "raw": 98,
+   "raw": 100,
    "kept": 0,
    "note": "slug=wizinc",
    "error": "",
@@ -1110,7 +1110,7 @@
    "kept": 0,
    "note": "pages_ok=1/1",
    "error": "",
-   "seconds": 0.4
+   "seconds": 0.5
   },
   {
    "company": "Zscaler",
@@ -1121,7 +1121,7 @@
    "kept": 0,
    "note": "company=Zscaler",
    "error": "",
-   "seconds": 0.3
+   "seconds": 0.2
   },
   {
    "company": "xAI",
@@ -1132,7 +1132,7 @@
    "kept": 4,
    "note": "slug=xai",
    "error": "",
-   "seconds": 0.0
+   "seconds": 0.1
   }
  ]
 }
